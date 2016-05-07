@@ -1,0 +1,13 @@
+alias 'py'=python3
+alias 'upgrade'="sudo apt upgrade"
+alias 'update'="sudo apt update"
+alias 'install'="sudo apt install"
+alias 'shutdown'="sudo shutdown now"
+alias 'autoremove'="sudo apt autoremove"
+alias 'remove'="sudo apt remove"
+alias 'purge'="sudo apt purge"
+alias 'list'="sudo apt list --upgradeable"
+alias 'reboot'="sudo reboot"
+alias 'search'="apt-cache search"
+alias 'distupgrade'="sudo apt dist-upgrade"
+alias 'clean'="sudo apt clean"
