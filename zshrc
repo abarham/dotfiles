@@ -85,20 +85,17 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias 'py'=python3
-alias 'upgrade'="sudo apt upgrade"
-alias 'update'="sudo apt update"
-alias 'install'="sudo apt install"
+alias 'upgrade'="sudo pacman -Syu"
+alias 'update'="sudo pacman -Syy"
+alias 'install'="sudo pacman -S"
 alias 'shutdown'="sudo shutdown now"
 alias 'autoremove'="sudo apt autoremove"
-alias 'remove'="sudo apt remove"
-alias 'purge'="sudo apt purge"
+alias 'remove'="sudo pacman -R"
+alias 'purge'="sudo pacman -Rs"
 alias 'list'="sudo apt list --upgradeable"
 alias 'reboot'="sudo reboot"
-alias 'search'="apt-cache search"
+alias 'search'="pacman -Ss"
 alias 'distupgrade'="sudo apt dist-upgrade"
 alias 'clean'="sudo apt clean"
 alias 'autoclean'="sudo apt autoclean"
-alias 'rm'=rm
 alias 'cd..'="cd .."
-
-# MOTD
