@@ -154,16 +154,19 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
         #tray_output primary
+#        staus_command python /usr/bin/python3.5/site-packages/powerline/bindings/i3/powerline-i3.py
         tray_output LVDS
-	position top
-	colors{
-		background #232323
+	    position top
+	    colors{
+	    	background #232323
         	statusline #DCDCDC
 }
 }
 
 # fix spotify
 #for_window[class="^Spotify$"] floating enable
+for_window[class="^Vivaldi-stable$"] floating disable
+
 
 # prettify 
 client.focused          #3F8AC2 #096BAA #00BAA7 #00DA8E
@@ -173,3 +176,4 @@ client.urgent           #C10004 #900000 #ffffff #900000
 
 # reshift autostart
 exec --no-startup-id redshift-gtk
+

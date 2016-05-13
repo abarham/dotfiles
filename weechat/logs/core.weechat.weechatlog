@@ -1,0 +1,312 @@
+2016-05-10 16:51:04		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2016-05-10 16:51:24		fifo: pipe closed
+2016-05-10 16:54:22		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2016-05-10 16:54:37		fifo: pipe closed
+2016-05-10 16:55:26		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2016-05-10 16:55:34		script: downloading list of scripts...
+2016-05-10 16:55:36		script: 309 scripts for WeeChat 1.6-dev
+2016-05-10 16:55:37		perl: loading script "/home/austin/.weechat/perl/iset.pl"
+2016-05-10 16:55:37		perl: registered script "iset", version 4.1 (Interactive Set for configuration options)
+2016-05-10 16:55:37		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2016-05-10 16:55:37		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2016-05-10 16:55:37		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2016-05-10 16:55:37		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2016-05-10 16:57:04		fifo: pipe closed
+2016-05-10 16:59:45		perl scripts loaded: iset
+2016-05-10 16:59:45		script: 309 scripts for WeeChat 1.6-dev
+2016-05-10 16:59:45		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2016-05-10 16:59:50	=!=	You can not write text in this buffer
+2016-05-10 16:59:52	=!=	Error: unknown command "/clear" (type /help for help)
+2016-05-10 16:59:54		[core]
+2016-05-10 16:59:54		  away     command  filter   key      plugin   reload   set      version
+2016-05-10 16:59:54		  bar      cursor   help     layout   print    repeat   unset    wait   
+2016-05-10 16:59:54		  buffer   debug    history  mouse    proxy    save     upgrade  window 
+2016-05-10 16:59:54		  color    eval     input    mute     quit     secure   uptime 
+2016-05-10 16:59:54		[script]
+2016-05-10 16:59:54		  script
+2016-05-10 16:59:54		[perl]
+2016-05-10 16:59:54		  iset  perl
+2016-05-10 16:59:54		[exec]
+2016-05-10 16:59:54		  exec
+2016-05-10 16:59:54		[alias]
+2016-05-10 16:59:54		  AAWAY    ANICK    CHAT     IG       LEAVE    N        SIGNOFF  V        WII    
+2016-05-10 16:59:54		  alias    BEEP     CL       J        M        Q        T        W        WW     
+2016-05-10 16:59:54		  AME      BYE      CLOSE    K        MSGBUF   REDRAW   UB       WC     
+2016-05-10 16:59:54		  AMSG     C        EXIT     KB       MUB      SAY      UMODE    WI     
+2016-05-10 16:59:54		[aspell]
+2016-05-10 16:59:54		  aspell
+2016-05-10 16:59:54		[irc]
+2016-05-10 16:59:54		  admin       deop        kickban     nick        reconnect   servlist    users     
+2016-05-10 16:59:54		  allchan     devoice     kill        notice      rehash      squery      version   
+2016-05-10 16:59:54		  allpv       die         links       notify      remove      squit       voice     
+2016-05-10 16:59:54		  allserv     disconnect  list        op          restart     stats       wallchops 
+2016-05-10 16:59:54		  ban         halfop      lusers      oper        sajoin      summon      wallops   
+2016-05-10 16:59:54		  cap         ignore      map         part        samode      time        who       
+2016-05-10 16:59:54		  connect     info        me          ping        sanick      topic       whois     
+2016-05-10 16:59:54		  ctcp        invite      mode        pong        sapart      trace       whowas    
+2016-05-10 16:59:54		  cycle       ison        motd        query       saquit      unban     
+2016-05-10 16:59:54		  dcc         join        msg         quiet       server      unquiet   
+2016-05-10 16:59:54		  dehalfop    kick        names       quote       service     userhost  
+2016-05-10 16:59:54		[logger]
+2016-05-10 16:59:54		  logger
+2016-05-10 16:59:54		[trigger]
+2016-05-10 16:59:54		  trigger
+2016-05-10 16:59:54		[fifo]
+2016-05-10 16:59:54		  fifo
+2016-05-10 16:59:54		[charset]
+2016-05-10 16:59:54		  charset
+2016-05-10 16:59:54		[python]
+2016-05-10 16:59:54		  python
+2016-05-10 16:59:54		[guile]
+2016-05-10 16:59:54		  guile
+2016-05-10 16:59:54		[lua]
+2016-05-10 16:59:54		  lua
+2016-05-10 16:59:54		[relay]
+2016-05-10 16:59:54		  relay
+2016-05-10 16:59:54		[xfer]
+2016-05-10 16:59:54		  me  xfer
+2016-05-10 17:00:04	=!=	No help available, "irc" is not a command or an option
+2016-05-10 17:00:10		[irc]  /allserv  [-exclude=<server>[,<server>...]] <command> [<arguments>]
+2016-05-10 17:00:10		execute a command on all connected servers
+2016-05-10 17:00:10		 -exclude: exclude some servers (wildcard "*" is allowed)
+2016-05-10 17:00:10		  command: command to execute
+2016-05-10 17:00:10		arguments: arguments for command (special variables $nick, $channel and $server are replaced by their value)
+2016-05-10 17:00:10		Examples:
+2016-05-10 17:00:10		  change nick on all servers:
+2016-05-10 17:00:10		    /allserv nick newnick
+2016-05-10 17:00:10		  set away on all servers:
+2016-05-10 17:00:10		    /allserv away I'm away
+2016-05-10 17:00:10		  do a whois on my nick on all servers:
+2016-05-10 17:00:10		    /allserv whois $nick
+2016-05-10 17:00:25	=!=	irc: unable to add temporary server "freenode" because the addition of temporary servers with command /connect is currently disabled
+2016-05-10 17:00:25	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2016-05-10 17:00:56		irc: server freenode added
+2016-05-10 17:01:59	=!=	irc: server "freenode" already exists, can't add it!
+2016-05-10 17:02:06		irc: server freenode-ssl added
+2016-05-10 17:02:42	=!=	irc: command "join" must be executed on connected irc server
+2016-05-10 17:02:48	=!=	irc: already connected to server "freenode"!
+2016-05-10 17:02:56		fifo: pipe closed
+2016-05-10 17:02:59		perl scripts loaded: iset
+2016-05-10 17:02:59		script: 309 scripts for WeeChat 1.6-dev
+2016-05-10 17:02:59		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2016-05-10 17:03:08	=!=	irc: command "join" must be executed on connected irc server
+2016-05-10 17:03:34		Upgrading WeeChat with binary file: "weechat"...
+2016-05-10 17:03:34		fifo: pipe closed
+2016-05-10 17:03:34		perl scripts loaded: iset
+2016-05-10 17:03:34		script: 309 scripts for WeeChat 1.6-dev
+2016-05-10 17:03:34		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2016-05-10 17:03:34		Upgrade done (0.35s)
+2016-05-10 17:04:20		Option changed: irc.look.smart_filter = on
+2016-05-10 17:05:15		Alias "sfilter" => "filter add irc_smart_$server_$channel irc.$server.$channel irc_smart_filter *" created
+2016-05-10 17:09:36		Options reloaded from sec.conf
+2016-05-10 17:09:36		Options reloaded from weechat.conf
+2016-05-10 17:09:36		Options reloaded from plugins.conf
+2016-05-10 17:09:36		Options reloaded from charset.conf
+2016-05-10 17:09:36		Options reloaded from logger.conf
+2016-05-10 17:09:36		Options reloaded from exec.conf
+2016-05-10 17:09:36		Options reloaded from trigger.conf
+2016-05-10 17:09:36		Options reloaded from aspell.conf
+2016-05-10 17:09:36		Options reloaded from alias.conf
+2016-05-10 17:09:36		Options reloaded from xfer.conf
+2016-05-10 17:09:36		Options reloaded from irc.conf
+2016-05-10 17:09:36		Options reloaded from relay.conf
+2016-05-10 17:09:36		Options reloaded from iset.conf
+2016-05-10 17:09:36		Options reloaded from script.conf
+2016-05-10 17:12:56	=!=	Can't upgrade: WeeChat binary "vcxzz bvczz nbzbvvc" does not exist
+2016-05-10 17:14:21	=!=	No help available, "logging" is not a command or an option
+2016-05-10 17:14:26		[core]
+2016-05-10 17:14:26		  away     command  filter   key      plugin   reload   set      version
+2016-05-10 17:14:26		  bar      cursor   help     layout   print    repeat   unset    wait   
+2016-05-10 17:14:26		  buffer   debug    history  mouse    proxy    save     upgrade  window 
+2016-05-10 17:14:26		  color    eval     input    mute     quit     secure   uptime 
+2016-05-10 17:14:26		[script]
+2016-05-10 17:14:26		  script
+2016-05-10 17:14:26		[perl]
+2016-05-10 17:14:26		  iset  perl
+2016-05-10 17:14:26		[exec]
+2016-05-10 17:14:26		  exec
+2016-05-10 17:14:26		[alias]
+2016-05-10 17:14:26		  AAWAY    BEEP     CLOSE    KB       N        T        WC     
+2016-05-10 17:14:26		  alias    BYE      EXIT     LEAVE    Q        UB       WI     
+2016-05-10 17:14:26		  AME      C        IG       M        REDRAW   UMODE    WII    
+2016-05-10 17:14:26		  AMSG     CHAT     J        MSGBUF   SAY      V        WW     
+2016-05-10 17:14:26		  ANICK    CL       K        MUB      SIGNOFF  W      
+2016-05-10 17:14:26		[aspell]
+2016-05-10 17:14:26		  aspell
+2016-05-10 17:14:26		[irc]
+2016-05-10 17:14:26		  admin       die         lusers      ping        saquit      userhost  
+2016-05-10 17:14:26		  allchan     disconnect  map         pong        server      users     
+2016-05-10 17:14:26		  allpv       halfop      me          query       service     version   
+2016-05-10 17:14:26		  allserv     ignore      mode        quiet       servlist    voice     
+2016-05-10 17:14:26		  ban         info        motd        quote       squery      wallchops 
+2016-05-10 17:14:26		  cap         invite      msg         reconnect   squit       wallops   
+2016-05-10 17:14:26		  connect     ison        names       rehash      stats       who       
+2016-05-10 17:14:26		  ctcp        join        nick        remove      summon      whois     
+2016-05-10 17:14:26		  cycle       kick        notice      restart     time        whowas    
+2016-05-10 17:14:26		  dcc         kickban     notify      sajoin      topic     
+2016-05-10 17:14:26		  dehalfop    kill        op          samode      trace     
+2016-05-10 17:14:26		  deop        links       oper        sanick      unban     
+2016-05-10 17:14:26		  devoice     list        part        sapart      unquiet   
+2016-05-10 17:14:26		[logger]
+2016-05-10 17:14:26		  logger
+2016-05-10 17:14:26		[trigger]
+2016-05-10 17:14:26		  trigger
+2016-05-10 17:14:26		[fifo]
+2016-05-10 17:14:26		  fifo
+2016-05-10 17:14:26		[charset]
+2016-05-10 17:14:26		  charset
+2016-05-10 17:14:26		[python]
+2016-05-10 17:14:26		  python
+2016-05-10 17:14:26		[guile]
+2016-05-10 17:14:26		  guile
+2016-05-10 17:14:26		[lua]
+2016-05-10 17:14:26		  lua
+2016-05-10 17:14:26		[relay]
+2016-05-10 17:14:26		  relay
+2016-05-10 17:14:26		[xfer]
+2016-05-10 17:14:26		  me  xfer
+2016-05-10 17:20:41		[logger]  /logger  list
+2016-05-10 17:20:41		                   set <level>
+2016-05-10 17:20:41		                   flush
+2016-05-10 17:20:41		                   disable
+2016-05-10 17:20:41		logger plugin configuration
+2016-05-10 17:20:41		   list: show logging status for opened buffers
+2016-05-10 17:20:41		    set: set logging level on current buffer
+2016-05-10 17:20:41		  level: level for messages to be logged (0 = logging disabled, 1 = a few messages (most important) .. 9 = all messages)
+2016-05-10 17:20:41		  flush: write all log files now
+2016-05-10 17:20:41		disable: disable logging on current buffer (set level to 0)
+2016-05-10 17:20:41		Options "logger.level.*" and "logger.mask.*" can be used to set level or mask for a buffer, or buffers beginning with name.
+2016-05-10 17:20:41		Log levels used by IRC plugin:
+2016-05-10 17:20:41		  1: user message, notice, private
+2016-05-10 17:20:41		  2: nick change
+2016-05-10 17:20:41		  3: server message
+2016-05-10 17:20:41		  4: join/part/quit
+2016-05-10 17:20:41		  9: all other messages
+2016-05-10 17:20:41		Examples:
+2016-05-10 17:20:41		  set level to 5 for current buffer:
+2016-05-10 17:20:41		    /logger set 5
+2016-05-10 17:20:41		  disable logging for current buffer:
+2016-05-10 17:20:41		    /logger disable
+2016-05-10 17:20:41		  set level to 3 for all IRC buffers:
+2016-05-10 17:20:41		    /set logger.level.irc 3
+2016-05-10 17:20:41		  disable logging for main WeeChat buffer:
+2016-05-10 17:20:41		    /set logger.level.core.weechat 0
+2016-05-10 17:20:41		  use a directory per IRC server and a file per channel inside:
+2016-05-10 17:20:41		    /set logger.mask.irc "$server/$channel.weechatlog"
+2016-05-10 17:21:12		Logging on buffers:
+2016-05-10 17:21:12		  [1] (core) weechat: logging (level: 9) (/home/austin/.weechat/logs/core.weechat.weechatlog)
+2016-05-10 17:21:12		  [1] (irc) server.freenode: logging (level: 9) (log not started)
+2016-05-10 17:21:12		  [2] (irc) freenode.#archlinux: logging (level: 9) (/home/austin/.weechat/logs/irc.freenode.#archlinux.weechatlog)
+2016-05-10 17:22:15		logger: "irc.freenode.#archlinux" => level 0
+2016-05-10 17:26:37	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2016-05-10 17:26:59		logger: "irc.freenode.##linux" => level 0
+2016-05-10 17:27:38		[logger]  /logger  list
+2016-05-10 17:27:38		                   set <level>
+2016-05-10 17:27:38		                   flush
+2016-05-10 17:27:38		                   disable
+2016-05-10 17:27:38		logger plugin configuration
+2016-05-10 17:27:38		   list: show logging status for opened buffers
+2016-05-10 17:27:38		    set: set logging level on current buffer
+2016-05-10 17:27:38		  level: level for messages to be logged (0 = logging disabled, 1 = a few messages (most important) .. 9 = all messages)
+2016-05-10 17:27:38		  flush: write all log files now
+2016-05-10 17:27:38		disable: disable logging on current buffer (set level to 0)
+2016-05-10 17:27:38		Options "logger.level.*" and "logger.mask.*" can be used to set level or mask for a buffer, or buffers beginning with name.
+2016-05-10 17:27:38		Log levels used by IRC plugin:
+2016-05-10 17:27:38		  1: user message, notice, private
+2016-05-10 17:27:38		  2: nick change
+2016-05-10 17:27:38		  3: server message
+2016-05-10 17:27:38		  4: join/part/quit
+2016-05-10 17:27:38		  9: all other messages
+2016-05-10 17:27:38		Examples:
+2016-05-10 17:27:38		  set level to 5 for current buffer:
+2016-05-10 17:27:38		    /logger set 5
+2016-05-10 17:27:38		  disable logging for current buffer:
+2016-05-10 17:27:38		    /logger disable
+2016-05-10 17:27:38		  set level to 3 for all IRC buffers:
+2016-05-10 17:27:38		    /set logger.level.irc 3
+2016-05-10 17:27:38		  disable logging for main WeeChat buffer:
+2016-05-10 17:27:38		    /set logger.level.core.weechat 0
+2016-05-10 17:27:38		  use a directory per IRC server and a file per channel inside:
+2016-05-10 17:27:38		    /set logger.mask.irc "$server/$channel.weechatlog"
+2016-05-10 17:27:53		logger: "irc.freenode.##linux" => level 0
+2016-05-10 17:32:43		Mouse enabled
+2016-05-10 17:33:10		Mouse disabled
+2016-05-10 17:33:24		Passphrase added
+2016-05-10 17:33:31		Secured data "bncpass" set
+2016-05-10 17:33:31		Options saved to sec.conf
+2016-05-10 17:33:39		Secured data "relaypass" set
+2016-05-10 17:33:39		Options saved to sec.conf
+2016-05-10 17:34:05		Option changed: irc.server_default.nicks = "r3m"  (default: "")
+2016-05-10 17:34:15		Option changed: irc.server_default.nicks = "aubar, aubar_"  (default: "")
+2016-05-10 17:34:34		Option changed: irc.server_default.ssl_verify = off  (default: on)
+2016-05-10 17:34:58		Option changed: irc.server_default.capabilities = "znc.in/server-time-iso"  (default: "")
+2016-05-10 17:36:47		logger: "irc.freenode.#archlinux" => level 0
+2016-05-10 17:37:58		Options reloaded from sec.conf
+2016-05-10 17:37:58		Options reloaded from weechat.conf
+2016-05-10 17:37:58		Options reloaded from plugins.conf
+2016-05-10 17:37:58		Options reloaded from charset.conf
+2016-05-10 17:37:58		Options reloaded from logger.conf
+2016-05-10 17:37:58		Options reloaded from exec.conf
+2016-05-10 17:37:58		Options reloaded from trigger.conf
+2016-05-10 17:37:58		Options reloaded from aspell.conf
+2016-05-10 17:37:58		Options reloaded from alias.conf
+2016-05-10 17:37:58		Options reloaded from xfer.conf
+2016-05-10 17:37:58		Options reloaded from irc.conf
+2016-05-10 17:37:58		Options reloaded from relay.conf
+2016-05-10 17:37:58		Options reloaded from iset.conf
+2016-05-10 17:37:58		Options reloaded from script.conf
+2016-05-10 17:38:05		fifo: pipe closed
+2016-05-10 17:38:13		perl scripts loaded: iset
+2016-05-10 17:38:13	=!=	python: script "/home/austin/.weechat/python/autoload/notify_send.py" not found
+2016-05-10 17:38:13		script: 309 scripts for WeeChat 1.6-dev
+2016-05-10 17:38:13		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-05-10 17:39:39		fifo: pipe closed
+2016-05-12 11:10:09		perl scripts loaded: iset
+2016-05-12 11:10:09	=!=	python: script "/home/austin/.weechat/python/autoload/notify_send.py" not found
+2016-05-12 11:10:09		script: downloading list of scripts...
+2016-05-12 11:10:09		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-05-12 11:10:11		script: 309 scripts for WeeChat 1.6-dev
+2016-05-12 11:10:49	=!=	Error: unknown command "/logging" (type /help for help)
+2016-05-12 11:11:28		fifo: pipe closed
+2016-05-12 23:41:22		perl scripts loaded: iset
+2016-05-12 23:41:22	=!=	python: script "/home/austin/.weechat/python/autoload/notify_send.py" not found
+2016-05-12 23:41:22		script: 309 scripts for WeeChat 1.6-dev
+2016-05-12 23:41:22		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-05-12 23:44:20		logger: "irc.freenode.#bitcoin" => level 0
+2016-05-12 23:46:33		fifo: pipe closed
+2016-05-12 23:46:40		perl scripts loaded: iset
+2016-05-12 23:46:40	=!=	python: script "/home/austin/.weechat/python/autoload/notify_send.py" not found
+2016-05-12 23:46:40		script: 309 scripts for WeeChat 1.6-dev
+2016-05-12 23:46:40		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-05-12 23:46:41	=!=	Too few arguments for command "/query" (help on command: /help query)
+2016-05-12 23:46:44		fifo: pipe closed
+2016-05-12 23:59:42		perl scripts loaded: iset
+2016-05-12 23:59:42	=!=	python: script "/home/austin/.weechat/python/autoload/notify_send.py" not found
+2016-05-12 23:59:42		script: 309 scripts for WeeChat 1.6-dev
+2016-05-12 23:59:42		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-05-12 23:59:51	=!=	irc: command "join" must be executed on connected irc server
+2016-05-13 00:01:19		fifo: pipe closed
+2016-05-13 00:01:45		perl scripts loaded: iset
+2016-05-13 00:01:45	=!=	python: script "/home/austin/.weechat/python/autoload/notify_send.py" not found
+2016-05-13 00:01:45		script: 309 scripts for WeeChat 1.6-dev
+2016-05-13 00:01:45		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-05-13 00:04:47		logger: "irc.freenode.##chat" => level 0
+2016-05-13 00:17:11		logger: "irc.freenode.##chat" => level 0
+2016-05-13 00:32:29		fifo: pipe closed
+2016-05-13 11:51:08		perl scripts loaded: iset
+2016-05-13 11:51:08	=!=	python: script "/home/austin/.weechat/python/autoload/notify_send.py" not found
+2016-05-13 11:51:08		script: downloading list of scripts...
+2016-05-13 11:51:08		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-05-13 11:51:10		script: 309 scripts for WeeChat 1.6-dev
+2016-05-13 11:51:23	=!=	irc: command "join" must be executed on connected irc server
+2016-05-13 11:56:13		logger: "irc.freenode.##linux" => level 0
+2016-05-13 11:56:22		logger: "irc.freenode.#archlinux" => level 0
+2016-05-13 11:57:26		fifo: pipe closed
+2016-05-13 12:09:52		perl scripts loaded: iset
+2016-05-13 12:09:52	=!=	python: script "/home/austin/.weechat/python/autoload/notify_send.py" not found
+2016-05-13 12:09:52		script: 309 scripts for WeeChat 1.6-dev
+2016-05-13 12:09:52		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-05-13 12:10:02	=!=	irc: command "join" must be executed on connected irc server
+2016-05-13 12:10:18		logger: "irc.freenode.#archlinux" => level 0
+2016-05-13 12:23:42		logger: "irc.freenode.#archlinux" => level 0
+2016-05-13 12:39:57		fifo: pipe closed

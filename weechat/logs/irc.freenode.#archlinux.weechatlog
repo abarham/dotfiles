@@ -1,0 +1,207 @@
+2016-05-10 17:03:17	-->	aubar (~austin@c-98-245-99-121.hsd1.co.comcast.net) has joined #archlinux
+2016-05-10 17:03:17	--	Topic for #archlinux is ""Welcome to Arch Linux World Domination, Inc. <+> Channel stats at <https://theos.kyriasis.com/~kyrias/stats/archlinux.html> Contact demize to opt out <+> important pacman news on the Arch homepage <+> gtk+ 3.20: if your 3rd-party theme broke after the update switch to adwaita or update your theme" <+> UFW upgrade might break your firewall"
+2016-05-10 17:03:17	--	Topic set by jelle (~jelle@archlinux/trusteduser/jelly1) on Wed, 27 Apr 2016 05:33:17
+2016-05-10 17:03:17	--	Channel #archlinux: 1718 nicks (1 op, 0 voices, 1717 normals)
+2016-05-10 17:03:19	--	Channel created on Sat, 14 Feb 2004 22:08:31
+2016-05-10 17:03:33	BrainDamage	grazzolini: DM still applies tought
+2016-05-10 17:03:42	grazzolini	BrainDamage: which DM has a notification daemon?
+2016-05-10 17:03:44	MichaelP	Namarrgon: i know... it needs to be built for it
+2016-05-10 17:03:56	BrainDamage	grazzolini: PRESCRIBES, not INCLUDES
+2016-05-10 17:04:07	grazzolini	AnnaRooks: i3 is nice that it gives you a lot of liberty. you can choose a lot of things to go along with it
+2016-05-10 17:04:17	<--	tsyn (~tsyn@unaffiliated/tsyn) has quit (Quit: Space is big. Really big. You just won't believe how vastly, hugely, mindbogglingly big it is. I mean, you may think it's a long way down the road to the chemist's, but that's just peanuts to space)
+2016-05-10 17:04:20	grazzolini	BrainDamage: ok, which dm prescribes which daemon?
+2016-05-10 17:04:45	grazzolini	BrainDamage: I can only think of lightdm
+2016-05-10 17:04:49	grazzolini	BrainDamage: and even so
+2016-05-10 17:04:54	BrainDamage	xfwm4 prescribes notification-daemon-xfce
+2016-05-10 17:05:04	BrainDamage	plasma has it's own too
+2016-05-10 17:05:07	MichaelP	BrainDamage: upstream for vlc would be vlc right
+2016-05-10 17:05:15	-->	MrRedpill (~digstuffu@host-69-145-52-232.bln-mt.client.bresnan.net) has joined #archlinux
+2016-05-10 17:05:15	thurstylark	MichaelP: yup
+2016-05-10 17:05:17	BrainDamage	being only a suggestion, you're free to ignore it
+2016-05-10 17:05:19	<--	bizarro_1 (~bizarro_1@137.red-81-32-245.dynamicip.rima-tde.net) has quit (Quit: Leaving)
+2016-05-10 17:05:34	BrainDamage	howrever, if you pick one, it usually makes sense to go with the other too
+2016-05-10 17:05:46	<--	brain0 (~brain0@archlinux/developer/brain0) has quit (Quit: leaving)
+2016-05-10 17:05:46	<--	datamoshr (~john@unaffiliated/datamoshr) has quit (Ping timeout: 276 seconds)
+2016-05-10 17:05:51	<--	mosu (~wuff@p548DFB66.dip0.t-ipconnect.de) has quit (Ping timeout: 265 seconds)
+2016-05-10 17:05:54	<--	GodGinrai (~msterritt@unaffiliated/godginrai) has quit (Quit: Leaving Work)
+2016-05-10 17:05:58	<--	denisk (~denisk@60.225.173.162) has quit (Remote host closed the connection)
+2016-05-10 17:06:06	-->	GI_Jack (~GI_Jack@pdpc/supporter/active/gi-jack) has joined #archlinux
+2016-05-10 17:06:06	grazzolini	BrainDamage: give that notifications daemons talk to the user system instance's dbus, it doesn't really matter what the DM prescribes or not
+2016-05-10 17:06:09	alad	BrainDamage: but xfwm4, plasma are window managers ? I thought the question was about display managers
+2016-05-10 17:06:14	 *	alad confused
+2016-05-10 17:06:25	BrainDamage	oh dm
+2016-05-10 17:06:27	<--	SonikkuAmerica (~SonikkuAm@unaffiliated/sonikkuamerica) has quit (Read error: Connection reset by peer)
+2016-05-10 17:06:28	BrainDamage	durr
+2016-05-10 17:06:28	grazzolini	alad: me too
+2016-05-10 17:06:34	BrainDamage	nvm
+2016-05-10 17:06:34	MichaelP	thurstylark: vlc in the past with plasma5 was always blaming the distro's when it would act up
+2016-05-10 17:06:38	BrainDamage	i've been tard
+2016-05-10 17:06:44	grazzolini	BrainDamage: hehehe
+2016-05-10 17:06:46	grazzolini	it happens
+2016-05-10 17:06:51	-->	SonikkuAmerica (~SonikkuAm@unaffiliated/sonikkuamerica) has joined #archlinux
+2016-05-10 17:06:58	grazzolini	a small letter changes everything
+2016-05-10 17:07:11	-->	turtil (~turtil@unaffiliated/kylescottmcgill) has joined #archlinux
+2016-05-10 17:07:43	<--	jobewan (~jobwan@65.149.31.5) has quit (Ping timeout: 276 seconds)
+2016-05-10 17:07:46	<--	||arifaX (~Commodore@unaffiliated/arifax/x-427475) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2016-05-10 17:08:13	thurstylark	MichaelP: Yeah, but on arch, it's just built, tested, and shipped. Unless there's something about arch that makes vlc incompatible with qt5 (which I HIGHLY doubt is the case).
+2016-05-10 17:08:50	thurstylark	..afaik
+2016-05-10 17:09:28	 *	thurstylark sets all messages to be appended with "afaik|iirc|fwiw"
+2016-05-10 17:09:37	grazzolini	thurstylark: heheheh
+2016-05-10 17:09:38	grazzolini	lol
+2016-05-10 17:09:43	grazzolini	polite afaik
+2016-05-10 17:09:53	-->	littlebunnyfufu (~SonikkuAm@unaffiliated/sonikkuamerica) has joined #archlinux
+2016-05-10 17:09:58	MichaelP	thurstylark: i think most of the plasma5 problems i seen with vlc was suse 42.1... vlc full screen would only be a quater of the screen
+2016-05-10 17:10:11	-->	sagerdearia (~necrodear@unaffiliated/necrodearia) has joined #archlinux
+2016-05-10 17:11:28	<--	SonikkuAmerica (~SonikkuAm@unaffiliated/sonikkuamerica) has quit (Disconnected by services)
+2016-05-10 17:11:34	--	littlebunnyfufu is now known as SonikkuAmerica
+2016-05-10 17:12:04	-->	untitaker (~untitaker@188-23-125-195.adsl.highway.telekom.at) has joined #archlinux
+2016-05-10 17:12:38	<--	firstdayonthejob (~firstdayo@cpc99346-croy26-2-0-cust153.19-2.cable.virginm.net) has quit (Ping timeout: 240 seconds)
+2016-05-10 17:12:39	<--	sim590 (~sim590@2607:fad8:4:6:76d0:2bff:fe47:14cf) has quit (Ping timeout: 260 seconds)
+2016-05-10 17:12:39	-->	gino_ (4a0fdcff@gateway/web/cgi-irc/kiwiirc.com/ip.74.15.220.255) has joined #archlinux
+2016-05-10 17:13:06	-->	CausaMortis_ (~CausaMort@unaffiliated/causamortis) has joined #archlinux
+2016-05-10 17:13:15	alad	thurstylark: "I'm not an expert, but <insert crazy claim here>. I'm just asking questions!"
+2016-05-10 17:13:28	grazzolini	alad: lol
+2016-05-10 17:14:17	gino_	hello i am new to archlinux. i created a new fat32 partition of 55gb for arch and when i typed cfdisk /dev/sda5 i got this(check the raw one) http://pastebin.com/tr1EkpPx
+2016-05-10 17:14:18	phrik	Title: Device Boot Start End Sectors Size idtype Free space - Pastebin.com (at pastebin.com)
+2016-05-10 17:14:20	-->	oconnorct1 (~connor@nc-76-4-9-193.dhcp.embarqhsd.net) has joined #archlinux
+2016-05-10 17:14:35	grazzolini	alad: every sentence that is along these lines: I'm not/don't X, but Y. where Y is a opinion completely lacking any substance and more often than not, complete bullshit
+2016-05-10 17:14:47	-->	yans_ (~yans@unaffiliated/yinsen) has joined #archlinux
+2016-05-10 17:14:49	alad	grazzolini: hehe
+2016-05-10 17:14:57	<--	alex1a (~alex1a@a81-84-222-27.cpe.netcabo.pt) has quit (Ping timeout: 252 seconds)
+2016-05-10 17:14:57	<--	shhx (~shhx@204.67.134.37.dynamic.jazztel.es) has quit (Ping timeout: 252 seconds)
+2016-05-10 17:15:02	MrElendig	gino_: no, just no
+2016-05-10 17:15:08	--	mosu_ is now known as mosu
+2016-05-10 17:15:08	<--	zenobit (~tomkl@unaffiliated/tomkl) has quit (Ping timeout: 240 seconds)
+2016-05-10 17:15:18	MrElendig	gino_: do not create a 55gb fat32 partition for arch, that makes no sense at all
+2016-05-10 17:15:21	thurstylark	!give gino_ echo FYI: [pastebin]
+2016-05-10 17:15:21	phrik	gino_: FYI: Please don't use pastebin.com because it is blocked for some users, among other reasons. See !paste for a list of better ones
+2016-05-10 17:15:26	sudokode	lol
+2016-05-10 17:15:31	-->	jra (~byte@unaffiliated/jra) has joined #archlinux
+2016-05-10 17:15:37	BrainDamage	it really sounds like an xyproblem
+2016-05-10 17:15:38	MrElendig	gino_: please trow whatever guide you are reading in the trash and follow the official install guide instead
+2016-05-10 17:15:46	grazzolini	gino_: back to the scratch board
+2016-05-10 17:15:47	<--	yans (~yans@unaffiliated/yinsen) has quit (Ping timeout: 244 seconds)
+2016-05-10 17:15:49	BrainDamage	why are you making a fat32 partition for arch in the first place
+2016-05-10 17:16:01	MrElendig	BrainDamage: esp would be a valid reason
+2016-05-10 17:16:06	MrElendig	but not 55gb
+2016-05-10 17:16:15	aubar	gino_: what guide are you using
+2016-05-10 17:16:24	thurstylark	MrElendig: gotta have space for all those blot efi loaders!
+2016-05-10 17:16:31	<--	xall (~xall@ip98-167-206-11.ph.ph.cox.net) has quit (Ping timeout: 250 seconds)
+2016-05-10 17:16:38	<--	CausaMortis (~CausaMort@unaffiliated/causamortis) has quit (Ping timeout: 240 seconds)
+2016-05-10 17:16:44	<--	freelery (~freelery@ipb21822ed.dynamic.kabel-deutschland.de) has quit (Ping timeout: 260 seconds)
+2016-05-10 17:16:50	gino_	well i had linux mint and i deleted it so i had a 55gb unallocated space and a had to create it
+2016-05-10 17:17:00	MrElendig	and you used gparted?
+2016-05-10 17:17:19	-->	freelery (~freelery@107.191.63.175) has joined #archlinux
+2016-05-10 17:17:19	<--	alad (~alad@unaffiliated/alad) has quit (Quit: WeeChat 1.5-dev)
+2016-05-10 17:17:20	-->	harwiltz (~harwiltz@modemcable109.165-58-74.mc.videotron.ca) has joined #archlinux
+2016-05-10 17:17:25	gino_	not i did it on windows
+2016-05-10 17:17:25	thurstylark	gino_: the /size/ isn't what we're commenting on. it's the fat32 part.
+2016-05-10 17:17:31	thurstylark	oh
+2016-05-10 17:17:35	MrElendig	don't do the partitioning on windows
+2016-05-10 17:17:44	gino_	why?
+2016-05-10 17:17:49	aubar	you probably want ext4 instead of fat32
+2016-05-10 17:17:52	MrElendig	leave the space unpartitioned, then read the arch install guide
+2016-05-10 17:17:59	<--	Alak (~Alakzadeh@unaffiliated/alakzadeh) has quit (Read error: Connection reset by peer)
+2016-05-10 17:17:59	aubar	and windows won't do that
+2016-05-10 17:18:00	grazzolini	gino_: because fat32 is a shitty filesystem?
+2016-05-10 17:18:13	thurstylark	gino_: because windows does what's best for windows, and linux does what's best for linux.
+2016-05-10 17:18:21	gino_	if its unpartitioned it does not appear
+2016-05-10 17:18:25	harwiltz	Hey guys. I'm having an issue with NERDTree in vim. Tried ##vim but got no help. When I try opening a file in NERDTree, nothing happens, but expanding directories is working perfectly. Any ideas of what I'm doing wrong?
+2016-05-10 17:18:42	MrElendig	gino_: wrong, it will show up just fine
+2016-05-10 17:18:52	freelery	hello
+2016-05-10 17:18:57	MrElendig	!give gino_ install
+2016-05-10 17:18:58	phrik	gino_: https://wiki.archlinux.org/index.php/Installation_Guide
+2016-05-10 17:19:03	freelery	is there anywhere maybe a repo with old gnome3 versions??
+2016-05-10 17:19:07	<--	gino_ (4a0fdcff@gateway/web/cgi-irc/kiwiirc.com/ip.74.15.220.255) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2016-05-10 17:19:18	thurstylark	!give freelery xyproblem
+2016-05-10 17:19:19	phrik	freelery: Tell us what you're REALLY trying to do. http://mywiki.wooledge.org/XyProblem
+2016-05-10 17:19:25	MrElendig	freelery: won't work
+2016-05-10 17:19:52	MrElendig	freelery: you will just end up with a billion "libfoo.so.4 does not exist" or "unknown symbol" errors
+2016-05-10 17:20:03	<--	frostschutz (~frostschu@x2f6b9f3.dyn.telefonica.de) has quit (Remote host closed the connection)
+2016-05-10 17:20:04	MrElendig	or both
+2016-05-10 17:20:04	<--	Darkhogg (~Darkhogg@224.pool85-54-209.dynamic.orange.es) has quit (Remote host closed the connection)
+2016-05-10 17:20:08	-->	xall (~xall@ip98-167-206-11.ph.ph.cox.net) has joined #archlinux
+2016-05-10 17:20:35	aubar	help /logger
+2016-05-10 17:21:31	-->	hutch34 (~hutch34@h250.59.90.75.dynamic.ip.windstream.net) has joined #archlinux
+2016-05-10 17:21:39	<--	astrofog (~astrofog@unaffiliated/astrofog) has quit (Quit: Quite)
+2016-05-10 17:21:55	-->	morlog (~morlog@unaffiliated/morlog) has joined #archlinux
+2016-05-12 11:10:33	-->	aubar (~austin@c-98-245-99-121.hsd1.co.comcast.net) has joined #archlinux
+2016-05-12 11:10:33	--	Topic for #archlinux is ""Welcome to Arch Linux World Domination, Inc. <+> Channel stats at <https://theos.kyriasis.com/~kyrias/stats/archlinux.html> Contact demize to opt out <+> important pacman news on the Arch homepage <+> gtk+ 3.20: if your 3rd-party theme broke after the update switch to adwaita or update your theme" <+> UFW upgrade might break your firewall"
+2016-05-12 11:10:33	--	Topic set by jelle (~jelle@archlinux/trusteduser/jelly1) on Wed, 27 Apr 2016 05:33:17
+2016-05-12 11:10:33	--	Channel #archlinux: 1748 nicks (1 op, 0 voices, 1747 normals)
+2016-05-12 11:10:33	--	Channel created on Sat, 14 Feb 2004 22:08:31
+2016-05-12 11:10:36	<--	Arschficker (~x@unaffiliated/newboy) has quit (Quit: Arschficker)
+2016-05-12 11:10:37	-->	MightyPork (MightyPork@is.aww.moe) has joined #archlinux
+2016-05-12 11:10:57	-->	utack_ (~utack@x5d8671ba.dyn.telefonica.de) has joined #archlinux
+2016-05-12 23:41:43	-->	aubar (~austin@c-98-245-99-121.hsd1.co.comcast.net) has joined #archlinux
+2016-05-12 23:41:43	--	Topic for #archlinux is ""Welcome to Arch Linux World Domination, Inc. <+> Channel stats at <https://theos.kyriasis.com/~kyrias/stats/archlinux.html> Contact demize to opt out <+> important pacman news on the Arch homepage <+> gtk+ 3.20: if your 3rd-party theme broke after the update switch to adwaita or update your theme" <+> UFW upgrade might break your firewall"
+2016-05-12 23:41:43	--	Topic set by jelle (~jelle@archlinux/trusteduser/jelly1) on Wed, 27 Apr 2016 05:33:17
+2016-05-12 23:41:43	--	Channel #archlinux: 1682 nicks (1 op, 0 voices, 1681 normals)
+2016-05-12 23:41:43	--	Channel created on Sat, 14 Feb 2004 22:08:31
+2016-05-12 23:41:53	<--	allen29 (~all@unaffiliated/allen29) has quit (Quit: Leaving)
+2016-05-12 23:41:57	-->	cdown_ (~cdown@12.37.166.67) has joined #archlinux
+2016-05-12 23:42:17	<--	homerj (~homerj@april-fools/2013/second/homerj) has quit (Remote host closed the connection)
+2016-05-12 23:42:43	<--	mrl4214 (~mlatman@pool-108-15-108-225.bltmmd.fios.verizon.net) has quit (Ping timeout: 244 seconds)
+2016-05-12 23:44:50	-->	Oatmeal (~Suzeanne@75-103-145-152.ccrtc.com) has joined #archlinux
+2016-05-12 23:45:45	-->	zrj (~raw_rw@212.59.11.231) has joined #archlinux
+2016-05-13 00:24:10	-->	aubar (~austin@c-98-245-99-121.hsd1.co.comcast.net) has joined #archlinux
+2016-05-13 00:24:10	--	Topic for #archlinux is ""Welcome to Arch Linux World Domination, Inc. <+> Channel stats at <https://theos.kyriasis.com/~kyrias/stats/archlinux.html> Contact demize to opt out <+> important pacman news on the Arch homepage <+> gtk+ 3.20: if your 3rd-party theme broke after the update switch to adwaita or update your theme" <+> UFW upgrade might break your firewall"
+2016-05-13 00:24:10	--	Topic set by jelle (~jelle@archlinux/trusteduser/jelly1) on Wed, 27 Apr 2016 05:33:17
+2016-05-13 00:24:10	--	Channel #archlinux: 1690 nicks (1 op, 0 voices, 1689 normals)
+2016-05-13 00:24:13	--	Channel created on Sat, 14 Feb 2004 22:08:31
+2016-05-13 00:24:16	--	Topic for #archlinux is ""Welcome to Arch Linux World Domination, Inc. <+> Channel stats at <https://theos.kyriasis.com/~kyrias/stats/archlinux.html> Contact demize to opt out <+> important pacman news on the Arch homepage <+> gtk+ 3.20: if your 3rd-party theme broke after the update switch to adwaita or update your theme" <+> UFW upgrade might break your firewall"
+2016-05-13 00:24:16	--	Topic set by jelle (~jelle@archlinux/trusteduser/jelly1) on Wed, 27 Apr 2016 05:33:17
+2016-05-13 00:24:30	<--	Asandari (~Asandari@24-212-254-4.cable.teksavvy.com) has quit (Ping timeout: 260 seconds)
+2016-05-13 00:24:47	-->	besenwesen (~besenwese@unaffiliated/besenwesen) has joined #archlinux
+2016-05-13 00:25:26	<--	NeverDie (~NeverDie@96.126.108.12) has quit (Ping timeout: 260 seconds)
+2016-05-13 00:25:49	<--	nando293921 (~fernando@64.189.57.235) has quit (Ping timeout: 276 seconds)
+2016-05-13 00:25:57	-->	firstdayonthejob (~firstdayo@cpc99346-croy26-2-0-cust153.19-2.cable.virginm.net) has joined #archlinux
+2016-05-13 00:26:56	-->	Primordus (~Primordus@2a02:a03f:49b:ad00:ae7b:a1ff:feb3:7b49) has joined #archlinux
+2016-05-13 00:27:03	-->	camoudile (~yourname@146-99-136-94.static.net4you.net) has joined #archlinux
+2016-05-13 00:27:47	<--	schnoodles (~joshbenha@4.26.222.180.cable.dyn.gex.ncable.com.au) has quit (Remote host closed the connection)
+2016-05-13 00:28:00	-->	Asandari (~Asandari@24-212-254-4.cable.teksavvy.com) has joined #archlinux
+2016-05-13 00:28:56	<--	archange1 (~archangel@137.112.104.149) has quit (Ping timeout: 260 seconds)
+2016-05-13 00:29:51	-->	karmahacker (~karmahack@unaffiliated/karmahacker) has joined #archlinux
+2016-05-13 00:30:49	--	Zolam is now known as meth
+2016-05-13 00:30:59	-->	lod__ (~lod@212.185.27.114) has joined #archlinux
+2016-05-13 00:31:11	<--	xeirrr (~xeirrr@unaffiliated/xeirrr) has quit (Ping timeout: 240 seconds)
+2016-05-13 00:32:19	<--	siidney (~siid@190.106.212.195) has quit (Ping timeout: 276 seconds)
+2016-05-13 11:51:34	-->	aubar (~austin@c-98-245-99-121.hsd1.co.comcast.net) has joined #archlinux
+2016-05-13 11:51:34	--	Topic for #archlinux is ""Welcome to Arch Linux World Domination, Inc. <+> Channel stats at <https://theos.kyriasis.com/~kyrias/stats/archlinux.html> Contact demize to opt out <+> important pacman news on the Arch homepage <+> gtk+ 3.20: if your 3rd-party theme broke after the update switch to adwaita or update your theme" <+> UFW upgrade might break your firewall"
+2016-05-13 11:51:34	--	Topic set by jelle (~jelle@archlinux/trusteduser/jelly1) on Wed, 27 Apr 2016 05:33:17
+2016-05-13 11:51:35	--	Channel #archlinux: 1771 nicks (1 op, 0 voices, 1770 normals)
+2016-05-13 11:51:35	eycsigfy	thurstylark: and then I found it haha
+2016-05-13 11:51:35	--	Channel created on Sat, 14 Feb 2004 22:08:31
+2016-05-13 11:51:42	<--	HuntsMan (~hunts@cpc2-sgyl27-2-0-cust387.sgyl.cable.virginm.net) has quit (Ping timeout: 240 seconds)
+2016-05-13 11:51:42	eycsigfy	!give thurstylark shrug
+2016-05-13 11:51:43	phrik	thurstylark: ¯\_(ツ)_/¯
+2016-05-13 11:51:45	TheAnachron	All I need to do now is to know how to make netctl start the right wpa_supplicant service (with the right config) and shutdown when I dont use the network anymore.
+2016-05-13 11:51:49	thurstylark	heh
+2016-05-13 11:52:03	-->	denisk (~denisk@60.225.173.162) has joined #archlinux
+2016-05-13 11:52:23	<--	JoccE (~JoccE@fh4n19-raas-a13.ias.bredband.telia.com) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2016-05-13 11:52:37	MacGyver	kriskropd: You're welcome. The pacman -Qkk actually doesn't list anything I'd really be suspicious of, most of that is expected with configuration file changes.
+2016-05-13 11:52:37	BrainDamage	if you do roam wifi you might find networkmanager more pleasant
+2016-05-13 11:52:42	teraflops	thurstylark: you want to fix phrik web searches?
+2016-05-13 11:52:47	MacGyver	kriskropd: But yeah, the md5sum mismatch of the modules are a problem.
+2016-05-13 11:52:59	thurstylark	teraflops: badly
+2016-05-13 11:53:12	MacGyver	kriskropd: Probably had some corruption on your /boot fs.
+2016-05-13 11:53:31	-->	ech0s7 (~ech0s7@198.208.72.20) has joined #archlinux
+2016-05-13 11:53:43	MacGyver	TheAnachron: In the manpage.
+2016-05-13 11:53:51	MacGyver	TheAnachron: WPAConfigFile=
+2016-05-13 11:53:55	teraflops	just update phrik the google api still works, till you switch to http://ix.io/E1f
+2016-05-13 11:53:59	MacGyver	TheAnachron: man netctl.profile
+2016-05-13 11:54:29	-->	Engys (~Engys@p4FC96B18.dip0.t-ipconnect.de) has joined #archlinux
+2016-05-13 11:54:40	TheAnachron	MacGyver, thanks, let me give it a try!
+2016-05-13 11:54:59	eycsigfy	teraflops: I'm sure DDG just has an API to call, though. Right? Am I overestimating them?
+2016-05-13 11:55:15	Engys	thurstylark, yep that works very well 
+2016-05-13 11:55:24	<--	kadiro (~kadiro@unaffiliated/kadiro) has quit (Read error: Connection reset by peer)
+2016-05-13 11:55:34	teraflops	eycsigfy: sure, but there are plugins for the easy going
+2016-05-13 11:55:44	eycsigfy	Hmm, yea.
+2016-05-13 11:56:02	eycsigfy	I mean
+2016-05-13 11:56:04	teraflops	eycsigfy: then start creating alias and factoids
+2016-05-13 11:56:07	<--	spareproject (~spareproj@bcdd5abc.skybroadband.com) has quit (Ping timeout: 260 seconds)
+2016-05-13 11:56:11	eycsigfy	Hmm what?
+2016-05-13 11:56:12	teraflops	aliases*
+2016-05-13 11:56:13	TheAnachron	MacGyver, and if I want to use none?
+2016-05-13 11:56:17	<--	Amm0n (~Amm0n@unaffiliated/amm0n) has quit (Quit: Amm0n)
+2016-05-13 11:56:20	<--	denisk (~denisk@60.225.173.162) has quit (Ping timeout: 246 seconds)

@@ -49,7 +49,7 @@ ZSH_THEME="superjarin"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git adb battery chucknorris dirhistory git-extras github python autopep8 colored-man-pages common-aliases debian )
+plugins=(git adb battery dirhistory git-extras github python autopep8 colored-man-pages common-aliases debian )
 
 # User configuration
 
@@ -99,3 +99,7 @@ alias 'distupgrade'="sudo apt dist-upgrade"
 alias 'clean'="sudo apt clean"
 alias 'autoclean'="sudo apt autoclean"
 alias 'cd..'="cd .."
+alias 'y'=yoaurt
+
+# powerline plugin
+. /usr/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh

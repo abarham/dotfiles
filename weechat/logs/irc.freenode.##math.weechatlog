@@ -1,0 +1,172 @@
+2016-05-13 12:21:30	-->	aubar (~austin@c-98-245-99-121.hsd1.co.comcast.net) has joined ##math
+2016-05-13 12:21:30	--	Topic for ##math is "Just ask your question! | Go to ##statistics and ##math-software | LaTeX pastebin: http://mathb.in | Unmaintained wiki: http://freenode-math.wikia.com/ | LaTeX symbol lookup: http://detexify.kirelabs.org/classify.html | Ping ops in ##math-ops if someone is misbehaving"
+2016-05-13 12:21:30	--	Topic set by JordiGH (~jordi@octave/developer/JordiGH) on Mon, 17 Nov 2014 11:41:02
+2016-05-13 12:21:30	--	Channel ##math: 926 nicks (0 ops, 0 voices, 926 normals)
+2016-05-13 12:21:32	--	Channel created on Fri, 29 Jan 2010 13:42:00
+2016-05-13 12:21:33	vonstrausss	well we left off chatting about completeness
+2016-05-13 12:21:35	Millennial	also, by your definition
+2016-05-13 12:21:39	Millennial	we can pick a_k = 10^k
+2016-05-13 12:21:42	<--	Rollabunna (~Rollabunn@AMontsouris-655-1-31-111.w90-44.abo.wanadoo.fr) has quit (Remote host closed the connection)
+2016-05-13 12:21:46	Millennial	and end up with 1 + 1 + 1 + 1 + ....
+2016-05-13 12:21:49	Millennial	so is that a real number?
+2016-05-13 12:21:53	<--	madsy (~madsy@fu/coder/madsy) has quit (Ping timeout: 246 seconds)
+2016-05-13 12:21:57	vonstrausss	sorry
+2016-05-13 12:22:03	vonstrausss	let me stipulate a_k < 10^k
+2016-05-13 12:22:16	-->	readmore (uid32977@gateway/web/irccloud.com/x-zarjrqvpdqtthacm) has joined ##math
+2016-05-13 12:22:16	Millennial	vonstrausss a_k = 10^k / 2
+2016-05-13 12:22:24	Millennial	then we have 1/2 + 1/2 + 1/2 + ....
+2016-05-13 12:22:38	vonstrausss	let me think about some alteration
+2016-05-13 12:22:51	vonstrausss	a_k < 10^(k-2)
+2016-05-13 12:23:01	vonstrausss	does this work
+2016-05-13 12:23:11	Millennial	a_k = 10^(k-3) for all k > 3, a_k = 0 otherwise
+2016-05-13 12:23:35	Millennial	vonstrausss good definition you have there :D
+2016-05-13 12:23:51	Millennial	perhaps force the a_k to be digits?
+2016-05-13 12:23:51	<--	hk238 (~kvirc@t224.ip7.netikka.fi) has quit (Quit: http://www.kvirc.net/ 4.9.1 Aria)
+2016-05-13 12:23:53	dbanet	you really need |a_k|<10 only
+2016-05-13 12:23:57	vonstrausss	ah
+2016-05-13 12:24:02	vonstrausss	i was going to suggest this
+2016-05-13 12:24:30	vonstrausss	a_k is less than or equal to nine
+2016-05-13 12:24:31	sparr	if I flip a biased coin 100 times and the first 99 come up heads then one tail, what is the most likely weighting of the coin? naive answer is 99:1 but I think it's more like 150:1 since the sole tail was the last flip.
+2016-05-13 12:24:36	<--	discopatrick (uid138124@gateway/web/irccloud.com/x-zyvisxngignoasig) has quit (Quit: Connection closed for inactivity)
+2016-05-13 12:24:51	Millennial	vonstrausss except a_0
+2016-05-13 12:25:00	vonstrausss	why
+2016-05-13 12:25:28	vonstrausss	i hope youre not suggesting this definition excludes some real...
+2016-05-13 12:25:28	Millennial	because otherwise 11 is not a real number
+2016-05-13 12:25:36	vonstrausss	ok, sure
+2016-05-13 12:25:37	vonstrausss	:)
+2016-05-13 12:26:13	-->	fooBard (~henrique_@177.55.195.109) has joined ##math
+2016-05-13 12:26:30	Millennial	now, define the product of two real numbers, please
+2016-05-13 12:26:39	<--	Destol (~Destol@dsl-173-206-4-4.tor.primus.ca) has quit (Quit: leaving)
+2016-05-13 12:26:45	-->	coms (~coms@c-98-238-1-217.hsd1.fl.comcast.net) has joined ##math
+2016-05-13 12:26:47	-->	colwem_ (~colwem@c-50-169-142-210.hsd1.ma.comcast.net) has joined ##math
+2016-05-13 12:26:53	Millennial	or the sum of two real numbers, even
+2016-05-13 12:27:16	<--	fooBard (~henrique_@177.55.195.109) has quit (Client Quit)
+2016-05-13 12:27:20	Millennial	here, interpret "real numbers" as some structure constructed using what you said above
+2016-05-13 12:27:24	<--	Grievre (~rfmerrill@192.67.40.25) has quit (Ping timeout: 244 seconds)
+2016-05-13 12:27:31	<--	sauvin (~sauvin@about/linux/staff/sauvin) has quit (Read error: Connection reset by peer)
+2016-05-13 12:27:36	<--	colwem (~colwem@c-50-169-142-210.hsd1.ma.comcast.net) has quit (Ping timeout: 252 seconds)
+2016-05-13 12:27:46	vonstrausss	ok
+2016-05-13 12:27:59	-->	centrinia (~centrinia@107-208-218-105.lightspeed.tukrga.sbcglobal.net) has joined ##math
+2016-05-13 12:28:00	vonstrausss	some x in R = a_0*10^0+a_1*10.....
+2016-05-13 12:28:12	vonstrausss	some y in R = b_0*10^0+b_1*10.....
+2016-05-13 12:28:28	vonstrausss	ok so far any problems
+2016-05-13 12:28:31	Millennial	nope
+2016-05-13 12:28:38	mxms	sparr: well, that statistic 99:1 means out of a 100 tries, 99 will land one way, and 1 the other
+2016-05-13 12:28:45	vonstrausss	now
+2016-05-13 12:28:56	mxms	which you achieved
+2016-05-13 12:28:56	<--	Shy (~Shy@pdpc/supporter/bronze/shy) has quit (Ping timeout: 244 seconds)
+2016-05-13 12:28:58	vonstrausss	we take our definition of the reals
+2016-05-13 12:29:03	dbanet	Millennial wait, what is 100 in his definition?
+2016-05-13 12:29:05	vonstrausss	and instead of using powers of 10 we use powers of 20
+2016-05-13 12:29:14	<--	wolfcub (~henrique_@177.131.178.228) has quit (Ping timeout: 246 seconds)
+2016-05-13 12:29:18	Millennial	dbanet it is just a_0 = 100, since he altered it to allow a_0 to be any integer
+2016-05-13 12:29:22	sparr	mxms: I'd like to predict how many tails I will get in 10000 tries
+2016-05-13 12:29:25	Millennial	after i remarked that it didn't work
+2016-05-13 12:29:28	vonstrausss	Millennial, so far so good
+2016-05-13 12:29:29	dbanet	Millennial oh
+2016-05-13 12:29:34	mxms	sparr: you have a ratio
+2016-05-13 12:29:45	vonstrausss	?
+2016-05-13 12:29:47	Millennial	vonstrausss yep
+2016-05-13 12:29:51	vonstrausss	alright
+2016-05-13 12:29:52	Millennial	what
+2016-05-13 12:29:53	Millennial	wait
+2016-05-13 12:29:56	Millennial	what??
+2016-05-13 12:29:57	vonstrausss	then we have
+2016-05-13 12:30:04	Millennial	powers of 20?
+2016-05-13 12:30:11	<--	LGiang (LGiang@c122-106-109-51.rivrw6.nsw.optusnet.com.au) has quit
+2016-05-13 12:30:14	vonstrausss	what
+2016-05-13 12:30:16	vonstrausss	what's the problem
+2016-05-13 12:30:23	mxms	sparr: multiply both sides by 100
+2016-05-13 12:30:30	Millennial	so now you are altering your definition of the real numbers
+2016-05-13 12:30:33	Millennial	to allow powers of 20 as well?
+2016-05-13 12:30:34	sparr	mxms: I don't think you understand the question I'm asking.
+2016-05-13 12:30:35	mxms	you get 9900:100
+2016-05-13 12:30:42	<--	wqe23_ (~wqe23@d4-50-163-72.try.wideopenwest.com) has quit (Ping timeout: 240 seconds)
+2016-05-13 12:30:46	vonstrausss	Millennial, yes well you can use any natural number > 1 no?
+2016-05-13 12:30:49	mxms	that's 10000 tries
+2016-05-13 12:30:51	sparr	mxms: your method is appropriate if I don't tell you that the tails was the last flip of the 100.
+2016-05-13 12:30:58	vonstrausss	since any # admits a unique base representation
+2016-05-13 12:30:58	Millennial	vonstrausss yes, but you made one definition
+2016-05-13 12:31:01	Millennial	and now you are using another
+2016-05-13 12:31:04	-->	dhil (~dhil@dhcp-90-078.inf.ed.ac.uk) has joined ##math
+2016-05-13 12:31:08	vonstrausss	no
+2016-05-13 12:31:09	Millennial	and you haven't shown that they are equivalent
+2016-05-13 12:31:10	mxms	sparr: you told me that 99 were heads and 1 was tails
+2016-05-13 12:31:12	Millennial	in any sense of the word
+2016-05-13 12:31:18	vonstrausss	Millennial, i will leave this to the audience
+2016-05-13 12:31:24	mxms	if the last one can be either, then youre correct, there's something else going on
+2016-05-13 12:31:33	Millennial	vonstrausss also, even if i allow you to use powers of 20, how were you planning to define the sum
+2016-05-13 12:31:35	Millennial	please go on
+2016-05-13 12:31:37	sparr	the *first* 99 were heads and the *last* 1 was tails.
+2016-05-13 12:31:40	mxms	yeah
+2016-05-13 12:31:42	mxms	it doesnt matter the order
+2016-05-13 12:31:48	coms	what is extensionality "with replacement"?
+2016-05-13 12:31:56	vonstrausss	Millennial, well
+2016-05-13 12:32:15	vonstrausss	how else can i define addition without making some kind of alteration to my defniition
+2016-05-13 12:32:34	Z-module	There's an axiom schema of replacement (so-called), separate from the axiom of extensionality.
+2016-05-13 12:32:42	Millennial	vonstrausss addition is the easy one to define
+2016-05-13 12:32:54	Millennial	well, you still have some technical concerns
+2016-05-13 12:32:59	--	deathonater is now known as Smeef
+2016-05-13 12:33:02	vonstrausss	can you tell me
+2016-05-13 12:33:09	Millennial	vonstrausss it's your construction
+2016-05-13 12:33:10	vonstrausss	im convinced
+2016-05-13 12:33:13	coms	Z-module: thank you
+2016-05-13 12:33:32	Millennial	if you didn't think you could define addition, how did it make sense to you to propose it
+2016-05-13 12:33:38	<--	HarveyPwca (~HarveyPwc@ip-64-134-38-37.public.wayport.net) has quit (Quit: The Pwca has left the building)
+2016-05-13 12:33:51	vonstrausss	because it is a valid definition for reals
+2016-05-13 12:33:59	Millennial	how do you know that
+2016-05-13 12:33:59	vonstrausss	and if i make some slight modification addition can wor
+2016-05-13 12:34:11	Millennial	vonstrausss you have made around 15 slight modifications so far
+2016-05-13 12:34:13	mxms	why do we supply alexandroff extensions instead of just defining a new region that already has it
+2016-05-13 12:34:23	vonstrausss	i've made one.....
+2016-05-13 12:34:24	Z-module	coms: The first thing says, essentially: If F is any function, having domain D, and if S is any set, then there exists a set {F(d) : all d in S cap D}
+2016-05-13 12:34:34	vonstrausss	but our problem was giving a definition for the reals and i have
+2016-05-13 12:34:35	Millennial	vonstrausss you changed your bounds on the a_k several times
+2016-05-13 12:34:39	Millennial	then you allowed a_0 to be any integer
+2016-05-13 12:34:45	vonstrausss	ok
+2016-05-13 12:34:49	vonstrausss	yes, this is true
+2016-05-13 12:34:55	vonstrausss	what are you getting at?
+2016-05-13 12:35:04	vonstrausss	the fact is we have here a suitable definition of R
+2016-05-13 12:35:05	-->	Zack_ (~zackscary@2602:306:3ae5:d6e0:10ae:e8a2:526f:e5a7) has joined ##math
+2016-05-13 12:35:06	coms	Z-module: what is the 'cap D' in that notation?
+2016-05-13 12:35:07	-->	gunthler (~Gunthler@unaffiliated/gunthler) has joined ##math
+2016-05-13 12:35:23	vonstrausss	now if we can define some operations we work on establishing some notion of completality
+2016-05-13 12:35:24	Millennial	vonstrausss that you have no idea what you are talking about, which isn't a bad thing, but it proves my initial point
+2016-05-13 12:35:26	vonstrausss	which is what we set out to do....
+2016-05-13 12:35:31	baxx	 How to go about solving something like |x+3| + |x-1| = 5 ? I just dropped the abs signs and found that 3/2 works for positives, but I'm looking for others just by bruteforcing / searching for values that are near. I'm not too sure how to consider it
+2016-05-13 12:35:31	baxx	 
+2016-05-13 12:35:36	Millennial	most high schoolers don't know what the real numbers are, even intuitively
+2016-05-13 12:35:42	-->	wqe23 (~wqe23@d4-50-163-72.try.wideopenwest.com) has joined ##math
+2016-05-13 12:35:47	Millennial	as i said, i wasn't looking for a construction
+2016-05-13 12:35:50	-->	Shy (~Shy@pdpc/supporter/bronze/shy) has joined ##math
+2016-05-13 12:35:53	vonstrausss	what do you look for then?
+2016-05-13 12:35:59	<--	buggs1 (~buggs@2001:4ca0:4e01:0:110b:79a0:ecc6:a37a) has quit (Read error: Network is unreachable)
+2016-05-13 12:36:13	Millennial	just some distinctive structural property of R that Q doesn't have, and dalcde pointed it out without completely formalizing it
+2016-05-13 12:36:32	Millennial	"every sequence that should converge, does converge"
+2016-05-13 12:36:38	<--	zackscary (~zackscary@2602:306:3ae5:d6e0:c008:60f3:1fec:e4f8) has quit (Ping timeout: 276 seconds)
+2016-05-13 12:37:02	--	localhost00 is now known as Gowron
+2016-05-13 12:37:08	Millennial	and then he said one possible definition was increasing sequences that were bounded from above
+2016-05-13 12:37:08	Svitkona	|x + 3| = x + 3 for x >= -3, -x - 3 for x < -3
+2016-05-13 12:37:10	<--	h3nnn4n (~h3nnn4n@177.16.153.135) has quit (Ping timeout: 260 seconds)
+2016-05-13 12:37:14	Svitkona	same for |x - 1|
+2016-05-13 12:37:16	vonstrausss	there is some x in R that such that a, b also in R but also in Q a < x < b?
+2016-05-13 12:37:28	Svitkona	well, do the same thing for |x - 1| i mean
+2016-05-13 12:37:41	Millennial	vonstrausss what?
+2016-05-13 12:37:45	<--	tarkus (hello@109.230.144.161) has quit
+2016-05-13 12:37:45	-->	buggs1 (~buggs@host48-2.natpool.mwn.de) has joined ##math
+2016-05-13 12:37:45	Svitkona	then you can consider it on different intervals that will "flip" the sign of the |x - 1|
+2016-05-13 12:37:57	vonstrausss	Millennial, let me think about this for a while
+2016-05-13 12:38:15	Millennial	vonstrausss look, this argument has gone on for long enough, and i feel that my point has been proven anyway
+2016-05-13 12:38:22	dbanet	lol
+2016-05-13 12:38:23	<--	demoo (~wolfenbar@mail.faithlutheranlv.org) has quit (Ping timeout: 276 seconds)
+2016-05-13 12:38:24	baxx	Svitkona: hrm ok, so | - 4 + 3 | == -4 + 3... cool.
+2016-05-13 12:38:31	dbanet	mind if I steal that phrase
+2016-05-13 12:38:38	-->	h3nnn4n (~h3nnn4n@187.112.165.77) has joined ##math
+2016-05-13 12:38:39	Z-module	uh...
+2016-05-13 12:38:44	Millennial	dbanet by all means, do what you want with it :D
+2016-05-13 12:38:51	Svitkona	no baxx
+2016-05-13 12:39:03	<--	fadeway__ (~fadeway@2001:7c0:409:410e:931:9e62:4bdb:8b15) has quit (Read error: Connection reset by peer)
+2016-05-13 12:39:08	Svitkona	if x = -4 then x < -3
+2016-05-13 12:39:09	baxx	no they're opposite signs
+2016-05-13 12:39:25	-->	fadeway__ (~fadeway@2001:7c0:409:410e:931:9e62:4bdb:8b15) has joined ##math
+2016-05-13 12:39:54	Svitkona	so |-4 + 3| = -(-4) - 3 = 1

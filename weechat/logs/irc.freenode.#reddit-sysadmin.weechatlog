@@ -1,0 +1,288 @@
+2016-05-13 00:02:17	-->	aubar (~austin@c-98-245-99-121.hsd1.co.comcast.net) has joined #reddit-sysadmin
+2016-05-13 00:02:17	--	Topic for #reddit-sysadmin is "Home of r/sysadmin - No Trolling and no feeding them either | /r/sysadmingaming | New? Try #reddit-sysadmin-support | http://quotes.rsysadmin.net/ is back - submit your quotes now!"
+2016-05-13 00:02:17	--	Topic set by killdash9 (~killdash9@unaffiliated/killdashix) on Fri, 06 May 2016 15:14:13
+2016-05-13 00:02:17	--	Channel #reddit-sysadmin: 695 nicks (7 ops, 10 voices, 678 normals)
+2016-05-13 00:02:17	--	Channel created on Thu, 29 Dec 2011 11:56:36
+2016-05-13 00:02:18	orlock	and esxi
+2016-05-13 00:02:19	Fongy888	thats silly
+2016-05-13 00:02:39	togenshi	RAID controller died, management wouldn't let me schedule d/t till midnight
+2016-05-13 00:02:41	heisenberg	togenshi: did you have those on hand? :P
+2016-05-13 00:02:45	Fongy888	guvk
+2016-05-13 00:02:47	Fongy888	fuck*
+2016-05-13 00:02:47	Endy	ImperialXT: I look after the ticketing system, everything else is yours. Go fix some systems ;)
+2016-05-13 00:02:48	Fongy888	thats just rude
+2016-05-13 00:02:51	togenshi	Dell sent one in like 2 hours
+2016-05-13 00:03:03	Fongy888	well that at least is good i guess
+2016-05-13 00:03:21	tyler2435	orlock, noted! I take a lot easier to working with the CLI and linux, configuring servers and package managers, etc. I find windows a lot harder tow work with, but am willing to learn more. Im very familiar with VMWare workstation, and somewhat ESX
+2016-05-13 00:03:24	tyler2435	not so much iSCSI
+2016-05-13 00:03:36	 *	monoxane is currently watching people troll scammers with DOS
+2016-05-13 00:03:47	heisenberg	where?
+2016-05-13 00:03:47	<--	Buffer_Overflow (~Buffer_Ov@122-57-239-181.jetstream.xtra.co.nz) has quit (Quit: Leaving)
+2016-05-13 00:03:53	ImperialXT	for f in `cat supersecretserverlist.txt`; do ssh root@$f dd if=/dev/null of=...;
+2016-05-13 00:03:57	ImperialXT	Endy: hows that?
+2016-05-13 00:03:59	heisenberg	monoxane:  link or it didnt happen :D
+2016-05-13 00:04:06	odify	tyler2435: plenty of linux-specific jobs going
+2016-05-13 00:04:06	monoxane	https://www.youtube.com/watch?v=0ZduI2PNbcc
+2016-05-13 00:04:06	layer-8	(monoxane) Scammer Reacts To MS-DOS - length 13m 18s - 442 likes, 334 dislikes (57.0%) - 50,303 views - TheCraftingProz on 2015.10.17
+2016-05-13 00:04:13	Endy	ImperialXT: Needs to be written in Go.
+2016-05-13 00:04:24	monoxane	or that apple one
+2016-05-13 00:04:24	togenshi	using vi?
+2016-05-13 00:04:27	monoxane	swift
+2016-05-13 00:04:28	ImperialXT	How about I find some of Peters code, it's almost as bad
+2016-05-13 00:04:28	odify	tyler2435: datacenter work and SaaS/platform work might be a good goto
+2016-05-13 00:04:36	Fongy888	tog - dell premium support are that good?
+2016-05-13 00:04:49	odify	tyler2435: some pleaces have an all-linux env too so y'know. options.
+2016-05-13 00:04:51	<--	chucky_z (uid135747@gateway/web/irccloud.com/x-najnegawgrsngotv) has quit (Quit: Connection closed for inactivity)
+2016-05-13 00:04:52	Fongy888	i normally use another mob for all my warranty stuff,
+2016-05-13 00:04:55	odify	places, even
+2016-05-13 00:05:01	togenshi	its decent, working with IBM midrange support which kicks ass but you pay for that
+2016-05-13 00:05:19	hug	Entry level linux admin work tends to be for webhosts.
+2016-05-13 00:05:25	Fongy888	where is midrange based these days/
+2016-05-13 00:05:27	togenshi	but with prosupport, if they can tell you know your shit, they send parts to you no questions asked
+2016-05-13 00:05:28	Fongy888	they used to be out of ballarat
+2016-05-13 00:05:28	odify	ah yeah that's true
+2016-05-13 00:05:34	odify	had a friend who worked for webhost
+2016-05-13 00:05:35	Endy	Yeah, I've found the Dell support stuff to be quite good - they also seem to dispatch stuff faster than normal.
+2016-05-13 00:05:39	odify	he said it was fucking horrible
+2016-05-13 00:05:42	togenshi	ie M4800 fan was making a whole tonne of noise, they sent another down
+2016-05-13 00:05:49	-->	Sphix (~~Sphinx@122-57-239-181.jetstream.xtra.co.nz) has joined #reddit-sysadmin
+2016-05-13 00:05:51	odify	he now works for LinkedIn
+2016-05-13 00:05:53	Fongy888	thats good then
+2016-05-13 00:05:56	Endy	HP's on-site service guy I've been blow two motherboards doing an on-site swapout, before I told him maybe he should check the PSU instead of making more magic smoke heh
+2016-05-13 00:06:01	hug	lol. Yes, webhost work usually grinds people up and spits them out.
+2016-05-13 00:06:07	odify	yeah
+2016-05-13 00:06:07	Fongy888	lel
+2016-05-13 00:06:11	tyler2435	odify, awesome :) Ive heard the field is expanding, Id love to find my way somewhere. I don't have any certifications, but Ive been studying for Network+. Im down to do anything but prefer to choose what I enjoy which is working with linux.
+2016-05-13 00:06:13	<--	Sphix (~~Sphinx@122-57-239-181.jetstream.xtra.co.nz) has quit (Max SendQ exceeded)
+2016-05-13 00:06:13	odify	you learn a *lot* quickly though
+2016-05-13 00:06:27	hug	As you always do in super high pressure IT environments.
+2016-05-13 00:06:28	tyler2435	I also understand the basics of penetration testing
+2016-05-13 00:06:31	odify	yeah
+2016-05-13 00:06:35	ImperialXT	Webhost work requires a tendency towards masochism
+2016-05-13 00:06:39	togenshi	tyler2435: psst not many of us have qualifications
+2016-05-13 00:06:48	odify	tyler2435: you sound like you have a similar skillset to me
+2016-05-13 00:06:49	-->	Sphix (~~Sphinx@122-57-239-181.jetstream.xtra.co.nz) has joined #reddit-sysadmin
+2016-05-13 00:06:51	togenshi	experience > paper
+2016-05-13 00:06:53	odify	tyler2435: where you based?
+2016-05-13 00:06:54	hug	I have no qualifications and dropped out of highschool at 16.
+2016-05-13 00:06:57	enix	ImperialXT, I'm buying a web host. I can attest to this
+2016-05-13 00:06:57	hug	gg
+2016-05-13 00:06:59	tyler2435	awesome :D
+2016-05-13 00:07:04	tyler2435	odify, Louisville, KY
+2016-05-13 00:07:08	ImperialXT	enix: why would you buy a web host?
+2016-05-13 00:07:11	odify	ah yep can't comment on what jobs are going then
+2016-05-13 00:07:12	ImperialXT	just spin your own?
+2016-05-13 00:07:17	ImperialXT	docker all the things!
+2016-05-13 00:07:18	ImperialXT	:P
+2016-05-13 00:07:22	Endy	ImperialXT: Same reason we did - customers?
+2016-05-13 00:07:23	tyler2435	no worries, thank you all for feedback!
+2016-05-13 00:07:31	Fongy888	but enix you aren't buying me, therefore you aren't getting your monies worth
+2016-05-13 00:07:32	Fongy888	huehue
+2016-05-13 00:07:34	heisenberg	monoxane:  you're actually watching this :c
+2016-05-13 00:07:41	monoxane	not nay more
+2016-05-13 00:07:43	 *	togenshi thinks about throwing up with the thought of docker
+2016-05-13 00:07:46	monoxane	s/nay/any
+2016-05-13 00:07:46	layer-8	Correction, <monoxane> not any more
+2016-05-13 00:07:48	odify	tyler2435: but yeah i'd just apply for things that look interesting. sounds like you can do whatever a job throws at you
+2016-05-13 00:07:48	hug	odify: I think you underestimate your skillset. ;p
+2016-05-13 00:07:55	odify	yeah probably
+2016-05-13 00:07:55	ImperialXT	togenshi: I saw a talk on Docker at Wahckon
+2016-05-13 00:07:55	enix	s/any/nay nay
+2016-05-13 00:07:56	layer-8	Correction, <monoxane> not nay nay more
+2016-05-13 00:07:56	heisenberg	s/what/isthis
+2016-05-13 00:07:56	layer-8	Correction, <odify> tyler2435: but yeah i'd just apply for things that look interesting. sounds like you can do isthisever a job throws at you
+2016-05-13 00:07:56	<--	raspberrypifan (~raspberry@2604:2000:6016:be00:b01a:dfdc:11f5:c4c2) has quit (Remote host closed the connection)
+2016-05-13 00:07:57	ImperialXT	all the puns
+2016-05-13 00:07:59	SpeakY10k	ImperialXT: don't forget to use public containers, that way you know they're good
+2016-05-13 00:08:07	ImperialXT	like seriously he had like 50+ naval puns
+2016-05-13 00:08:09	tyler2435	odify, sweet, thank you!!
+2016-05-13 00:08:09	ImperialXT	in his talk
+2016-05-13 00:08:14	enix	s/not/watch me whip whip
+2016-05-13 00:08:14	layer-8	Correction, <monoxane> watch me whip whip nay nay more
+2016-05-13 00:08:20	ImperialXT	it was hillarious and terrible at the same time
+2016-05-13 00:08:29	togenshi	LPAR or Solaris containers or don't bother
+2016-05-13 00:08:32	Endy	Yaar, that ship sailed half way through
+2016-05-13 00:08:34	SyncYourDogmas	I'm a dev thinking of moving to devops...any thoughts??
+2016-05-13 00:08:37	odify	tyler2435: also learn the ins and outs of RHEL/Centos
+2016-05-13 00:08:43	heisenberg	enix lol
+2016-05-13 00:08:45	Fongy888	what is devops again
+2016-05-13 00:08:46	heisenberg	why did you whip whip :(
+2016-05-13 00:08:47	odify	as it's pretty much defacto enterprise linux
+2016-05-13 00:08:57	ImperialXT	odify: that's changing actually
+2016-05-13 00:09:06	odify	it is?
+2016-05-13 00:09:09	ImperialXT	it's getting closer to a 50/50 split with ubuntu
+2016-05-13 00:09:11	togenshi	Ubuntu
+2016-05-13 00:09:14	odify	fucking ubuntu
+2016-05-13 00:09:19	SpeakY10k	SyncYourDogmas: ahayweh
+2016-05-13 00:09:29	togenshi	yeah but still prefer RHEL here but everyone is using ubuntu
+2016-05-13 00:09:31	odify	ubuntu is fine i suppose
+2016-05-13 00:09:33	tyler2435	odify, totally! these all seem pretty easy, because they are all package based systems so software installation is really quick and simple.
+2016-05-13 00:09:34	odify	i really like centos :P
+2016-05-13 00:09:38	togenshi	poor opensuse is being left out
+2016-05-13 00:09:46	odify	actaully
+2016-05-13 00:09:48	ImperialXT	togenshi: "Don't reboot just patch!"
+2016-05-13 00:09:51	odify	I really like the centos docuemntation
+2016-05-13 00:09:58	odify	Centos/RHEL docs
+2016-05-13 00:10:00	odify	are so good
+2016-05-13 00:10:01	enix	Amanatidis cannot be a real name
+2016-05-13 00:10:04	Fongy888	with ksplice thought surely now there is truely no need to reboot?
+2016-05-13 00:10:05	Fongy888	huehue
+2016-05-13 00:10:12	enix	a-man-a-tidis
+2016-05-13 00:10:14	odify	tyler2435: https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/
+2016-05-13 00:10:16	enix	srsly
+2016-05-13 00:10:16	SyncYourDogmas	no really....feel like my coding skills might give me an edge in certain areas. just wondering how common a shift it is
+2016-05-13 00:10:18	odify	i post that link at least once a day here haha
+2016-05-13 00:10:33	tyler2435	ill study up!
+2016-05-13 00:10:35	odify	best linux docs
+2016-05-13 00:10:41	togenshi	RHEL7 is a PITA if you have order programs still
+2016-05-13 00:10:50	odify	yeah well, RHEL 6/7 whatever
+2016-05-13 00:10:50	 *	togenshi looks at srcds (source dedicated servers)
+2016-05-13 00:10:52	odify	both docs are good
+2016-05-13 00:10:55	togenshi	*older
+2016-05-13 00:11:01	odify	7 is very different from 6
+2016-05-13 00:11:03	odify	VERY
+2016-05-13 00:11:04	SpeakY10k	SyncYourDogmas: it's certainly not uncommon
+2016-05-13 00:11:12	togenshi	like xp and vista different
+2016-05-13 00:11:17	odify	yeah
+2016-05-13 00:11:43	 *	Fongy888 thinks it's time to go to the pub
+2016-05-13 00:11:48	odify	omfg im wired on coffee
+2016-05-13 00:11:49	SyncYourDogmas	linux only, I'm hopeless at een navigating windows
+2016-05-13 00:12:03	SyncYourDogmas	but for web shouldnt matter too much I feel..
+2016-05-13 00:12:17	-->	alexKarp (~alexkarp@23-25-237-201-static.hfc.comcastbusiness.net) has joined #reddit-sysadmin
+2016-05-13 00:12:17	hug	Maaaaaaan everything sucks today.
+2016-05-13 00:12:20	hug	Everything.
+2016-05-13 00:12:22	odify	tyler2435: if you wanna get into netsec or pentesting or whatever
+2016-05-13 00:12:25	 *	Fongy888 hands hug a scotch
+2016-05-13 00:12:34	odify	tyler2435: you'll learn a tonne from http://overthewire.org/wargames/
+2016-05-13 00:12:39	odify	tyler2435: recommend natas :)
+2016-05-13 00:12:42	odify	so much fun
+2016-05-13 00:12:46	ImperialXT	Fongy888:  I'll take an old fashioned thanks!
+2016-05-13 00:12:52	hug	natas was good fun. I should go back to doing it.
+2016-05-13 00:12:52	Fongy888	any time
+2016-05-13 00:12:57	odify	yeah
+2016-05-13 00:12:59	-->	yeru (~yeru@x2f2f526.dyn.telefonica.de) has joined #reddit-sysadmin
+2016-05-13 00:13:03	tyler2435	odify, sweet, thank you! :)
+2016-05-13 00:13:08	hug	Maybe when I'm not so busy at work. :(
+2016-05-13 00:13:14	odify	...yeah
+2016-05-13 00:13:23	Fongy888	we should organise an /r/sysadmin melb drink sesh sometime
+2016-05-13 00:13:36	odify	fuck that
+2016-05-13 00:13:39	hug	lol.
+2016-05-13 00:13:40	ImperialXT	Fongy888: do it later this year
+2016-05-13 00:13:42	odify	i dont wanna meet any of you pricks
+2016-05-13 00:13:45	ImperialXT	I'll be in Melbourne for pax
+2016-05-13 00:13:46	ImperialXT	:P
+2016-05-13 00:13:57	hug	I just did one of those dumbass snort laughs.
+2016-05-13 00:13:57	odify	bad enough i met hug
+2016-05-13 00:13:58	Fongy888	i didnt realise i was a prick
+2016-05-13 00:14:12	odify	haha nah
+2016-05-13 00:14:13	<--	iovoid (~iovoid@unaffiliated/iovoid) has quit (Ping timeout: 246 seconds)
+2016-05-13 00:14:15	ImperialXT	can go to the lui bar
+2016-05-13 00:14:30	Fongy888	im not even trying to sell to you today odigy
+2016-05-13 00:14:31	odify	yeah i'd probably be down probably
+2016-05-13 00:14:33	hug	I'm too broke to go out drinking tonight. Unless my pay comes in.
+2016-05-13 00:14:34	Fongy888	odify**
+2016-05-13 00:14:35	Fongy888	aha
+2016-05-13 00:14:38	--	ventris_ is now known as ventris
+2016-05-13 00:14:55	odify	hug: yeah im just doing a few cheap ones after work tonight i think
+2016-05-13 00:14:58	hug	My party budget for this month is down to $0.
+2016-05-13 00:15:00	odify	wind myself down
+2016-05-13 00:15:07	hug	Wind down drinks are pretty legit.
+2016-05-13 00:15:12	Fongy888	lucky my best mate owns a bar down here
+2016-05-13 00:15:15	Fongy888	so beers just get served
+2016-05-13 00:15:17	Fongy888	which is nice
+2016-05-13 00:15:21	odify	'down here'?
+2016-05-13 00:15:27	-->	sadmin (~Hi@c-76-102-122-156.hsd1.ca.comcast.net) has joined #reddit-sysadmin
+2016-05-13 00:15:30	Fongy888	im not in melb, im in ballarat
+2016-05-13 00:15:37	odify	that's 'up there'
+2016-05-13 00:15:40	hexaclock	win. friend water-damaged his laptop
+2016-05-13 00:15:48	hexaclock	i took the ram out. i now have 24gb of ram in my laptop
+2016-05-13 00:15:51	hexaclock	what do i do
+2016-05-13 00:15:55	odify	i passed through ballarrat the other day
+2016-05-13 00:15:59	@Nostalg14c	SP Admin just deleted the DNS record for intranet/
+2016-05-13 00:16:04	Fongy888	unrcky for your
+2016-05-13 00:16:05	Fongy888	you
+2016-05-13 00:16:06	odify	went to a trendy warehouse bar
+2016-05-13 00:16:12	odify	got a decent burger
+2016-05-13 00:16:16	odify	it was nice
+2016-05-13 00:16:47	togenshi	Nostalg14c: ...
+2016-05-13 00:16:50	<--	alexKarp (~alexkarp@23-25-237-201-static.hfc.comcastbusiness.net) has quit (Ping timeout: 250 seconds)
+2016-05-13 00:16:56	Endy	Went to Ballarat for linux.conf.au a few years ago... can't remember much about the food, but the beer was OK :P
+2016-05-13 00:17:00	togenshi	DNS delegation rights?
+2016-05-13 00:17:00	@Nostalg14c	¯\_(ツ)_/¯
+2016-05-13 00:17:06	@Nostalg14c	he has domain admin
+2016-05-13 00:17:13	@Nostalg14c	dont ask me why
+2016-05-13 00:17:21	Fongy888	linuxconf - my old man was keynote there this year actually haha
+2016-05-13 00:17:28	odify	Hop temple i think it was called
+2016-05-13 00:17:33	Fongy888	oh yeah - hop is good
+2016-05-13 00:17:40	Endy	Fongy888: Ah - George would be the educated guess :P
+2016-05-13 00:17:40	Fongy888	good burger there too
+2016-05-13 00:17:44	odify	yeah was stright outta fucking fitzroy
+2016-05-13 00:17:55	Fongy888	who is that @endy? don't even know
+2016-05-13 00:17:59	Fongy888	XD
+2016-05-13 00:17:59	togenshi	boss gave me DA but I'm trying to get everything moved away
+2016-05-13 00:18:03	Endy	hehe
+2016-05-13 00:18:20	-->	sigia (~sigia@uls-154-73-35-201.wall.uls.co.za) has joined #reddit-sysadmin
+2016-05-13 00:18:52	Fongy888	@odify they have some different beers on tap
+2016-05-13 00:19:00	odify	yeah was good selection
+2016-05-13 00:19:01	Fongy888	too bad it bready the bank every damn time
+2016-05-13 00:19:06	enix	http://i.imgur.com/jrP57ne.gifv me when i'm old
+2016-05-13 00:19:09	odify	haha just like Fitzroy
+2016-05-13 00:19:13	Fongy888	correct
+2016-05-13 00:19:21	Fongy888	im a simple man, give me a pint of draught and im a happy man
+2016-05-13 00:19:45	odify	yeah my standard friday after work happy hour plebian beer is Boags
+2016-05-13 00:19:58	Fongy888	not even that bad
+2016-05-13 00:19:58	togenshi	Nostalg14c: what have you got planned this weekend?
+2016-05-13 00:20:00	Fongy888	could be worse
+2016-05-13 00:20:02	Fongy888	could be carlton cold
+2016-05-13 00:20:03	hug	Nah, gotta go with coopers pale. Or sparkling.
+2016-05-13 00:20:06	odify	yeah its fine
+2016-05-13 00:20:10	odify	hug: happy hour tho!
+2016-05-13 00:20:11	@Nostalg14c	togenshi: nothin man. my weekends are spent doing fuck all lately
+2016-05-13 00:20:13	odify	$6 pints!
+2016-05-13 00:20:19	@Nostalg14c	even after work i stare at the ceilin for a few hours
+2016-05-13 00:20:21	hug	..Yeah, okay. $6 pints are okay.
+2016-05-13 00:20:30	togenshi	its a bit like that
+2016-05-13 00:20:36	<--	Sphix (~~Sphinx@122-57-239-181.jetstream.xtra.co.nz) has quit (Ping timeout: 265 seconds)
+2016-05-13 00:21:22	togenshi	trying to learn ruby on rails but meeehhhh. Looks to be the goto framework for the new rflan intranet
+2016-05-13 00:21:32	Fongy888	now if you guys will excuse me, i'm going to the pub - have a good weekend lads /lasses
+2016-05-13 00:21:37	hug	Later.
+2016-05-13 00:21:40	odify	Fongy888: enjoy
+2016-05-13 00:21:41	togenshi	actually, should do a bit on that too
+2016-05-13 00:21:42	Endy	Catchya Fongy888
+2016-05-13 00:21:46	togenshi	take care
+2016-05-13 00:21:46	@Nostalg14c	Jealous.
+2016-05-13 00:21:48	 *	Fongy888 waves
+2016-05-13 00:21:55	<--	Fongy888 (~Luke@remote.lateralplains.com) has quit (Quit: Leaving)
+2016-05-13 00:22:09	@Nostalg14c	RoR was all the hype then died in a fire I thought.
+2016-05-13 00:22:26	-->	Matzy (5db047a4@gateway/web/freenode/ip.93.176.71.164) has joined #reddit-sysadmin
+2016-05-13 00:22:28	odify	RoR?
+2016-05-13 00:22:31	@Nostalg14c	Ruby on rails.
+2016-05-13 00:22:35	odify	ohh
+2016-05-13 00:22:41	odify	still pretty common?
+2016-05-13 00:22:49	odify	well, ruby, not rails yeah
+2016-05-13 00:22:56	Matzy	Good morning
+2016-05-13 00:23:42	togenshi	Ruby isn't bad but I suck at languages and can't recall all the method names to save myself
+2016-05-13 00:24:57	-->	tagaulap (uid151306@gateway/web/irccloud.com/x-hakzqyjlerixopie) has joined #reddit-sysadmin
+2016-05-13 00:25:31	togenshi	also I can only learn 4 languages at a time
+2016-05-13 00:27:17	odify	Matzy: g'morn
+2016-05-13 00:28:10	hug	I wonder if my pay is going to come in today.
+2016-05-13 00:28:14	 *	hug crosses fingers.
+2016-05-13 00:28:27	odify	hug: i can shout you a few rounds if you're keen on decompression session
+2016-05-13 00:28:32	odify	i got paid :D
+2016-05-13 00:28:44	hug	Hahah.
+2016-05-13 00:28:56	<--	ronrib (~ronrib@45.32.242.135) has quit (Remote host closed the connection)
+2016-05-13 00:28:56	hug	I can probably spare $20 to go towards drinks.
+2016-05-13 00:29:09	odify	im just monitoring flatmates.com.au replies all night for the weekend
+2016-05-13 00:29:12	odify	that is my friday night
+2016-05-13 00:29:15	hug	lolol.
+2016-05-13 00:29:16	odify	might as well have a beer in hand
+2016-05-13 00:29:30	hug	Should rent that place in ivanhoe. :p
+2016-05-13 00:29:36	-->	budre (~brnme@118-92-18-180.dsl.dyn.ihug.co.nz) has joined #reddit-sysadmin
+2016-05-13 00:29:48	odify	haha then i'd have to live in ivanhoe
+2016-05-13 00:29:56	togenshi	i got paid today too. Only to be broke by monday due to bills and such
+2016-05-13 00:30:14	hug	lol. Ivanhoe is pretty cool though. :[
+2016-05-13 00:30:20	odify	yeah i know
+2016-05-13 00:30:24	Endy	togenshi: Ditto :(
+2016-05-13 00:30:32	odify	nah want to at least get debt free then put in my notice here
+2016-05-13 00:30:42	odify	im just whinging about standard sharehouse problems
+2016-05-13 00:31:23	togenshi	HR is learning that hard way about SaaS. Oh you think that your online performance management system issues can be placed on IT? Think again sunshine :D
