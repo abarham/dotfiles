@@ -539,3 +539,125 @@
 2016-05-13 13:11:59	--	User mode [+i] by aubar
 2016-05-13 13:11:59	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
 2016-05-13 13:11:59	--	NickServ (NickServ@services.): You are now identified for aubar.
+2016-05-13 13:52:37	--	linux: No such channel
+2016-05-13 13:52:40	--	#linux: ##linux :Forwarding to another channel
+2016-05-13 13:52:53	--	#math: ##math :Forwarding to another channel
+2016-05-13 13:53:44	--	irc: connecting to server irc.freenode.net/6667...
+2016-05-13 13:53:45	--	irc: connected to irc.freenode.net/6667 (193.10.255.100)
+2016-05-13 13:53:45	--	wolfe.freenode.net: *** Looking up your hostname...
+2016-05-13 13:53:45	--	wolfe.freenode.net: *** Checking Ident
+2016-05-13 13:53:45	--	wolfe.freenode.net: *** Found your hostname
+2016-05-13 13:53:52	--	wolfe.freenode.net: *** No Ident response
+2016-05-13 13:53:52	--	Welcome to the freenode Internet Relay Chat Network aubar
+2016-05-13 13:53:52	--	Your host is wolfe.freenode.net[193.10.255.100/6667], running version ircd-seven-1.1.3
+2016-05-13 13:53:52	--	This server was created Tue Nov 10 2015 at 15:57:43 UTC
+2016-05-13 13:53:52	--	wolfe.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-05-13 13:53:52	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-05-13 13:53:52	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-05-13 13:53:52	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-05-13 13:53:52	--	There are 152 users and 88051 invisible on 26 servers
+2016-05-13 13:53:52	--	25 :IRC Operators online
+2016-05-13 13:53:52	--	9 :unknown connection(s)
+2016-05-13 13:53:52	--	51820 :channels formed
+2016-05-13 13:53:52	--	I have 10632 clients and 1 servers
+2016-05-13 13:53:52	--	10632 13056 :Current local users 10632, max 13056
+2016-05-13 13:53:52	--	88203 97578 :Current global users 88203, max 97578
+2016-05-13 13:53:52	--	Highest connection count: 13057 (13056 clients) (1353111 connections received)
+2016-05-13 13:53:52	--	- wolfe.freenode.net Message of the Day -
+2016-05-13 13:53:52	--	- Welcome to wolfe.freenode.net in Stockholm, SE.
+2016-05-13 13:53:52	--	- Thanks to http://nordu.net/ for sponsoring
+2016-05-13 13:53:52	--	- this server!
+2016-05-13 13:53:52	--	-
+2016-05-13 13:53:52	--	- WOLFE, GENE [1931-].  Prolific writer of short stories and
+2016-05-13 13:53:52	--	- novels. His best-known work is the multi-volume novel The
+2016-05-13 13:53:52	--	- Book of the New Sun. He has won multiple awards including
+2016-05-13 13:53:52	--	- the Nebula Award, the World Fantasy Award, The Campell
+2016-05-13 13:53:52	--	- Memorial Award and the Locus Award. He was awarded the World
+2016-05-13 13:53:52	--	- Fantasy Award for lifetime achievement in 1996.
+2016-05-13 13:53:52	--	-
+2016-05-13 13:53:52	--	- Welcome to freenode - supporting the free and open source
+2016-05-13 13:53:52	--	- software communities since 1998.
+2016-05-13 13:53:52	--	-
+2016-05-13 13:53:52	--	- By connecting to freenode you indicate that you have read and
+2016-05-13 13:53:52	--	- accept our policies as set out on http://www.freenode.net
+2016-05-13 13:53:52	--	- freenode runs an open proxy scanner. Please join #freenode for
+2016-05-13 13:53:52	--	- any network-related questions or queries, where a number of
+2016-05-13 13:53:52	--	- volunteer staff and helpful users will be happy to assist you.
+2016-05-13 13:53:52	--	-
+2016-05-13 13:53:52	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-05-13 13:53:52	--	- together with like-minded FOSS enthusiasts for talks and
+2016-05-13 13:53:52	--	- real-life collaboration.
+2016-05-13 13:53:52	--	-
+2016-05-13 13:53:52	--	- We would like to thank Private Internet Access
+2016-05-13 13:53:52	--	- (https://www.privateinternetaccess.com/) and the other
+2016-05-13 13:53:52	--	- organisations that help keep freenode and our other projects
+2016-05-13 13:53:52	--	- running for their sustained support.
+2016-05-13 13:53:52	--	-
+2016-05-13 13:53:52	--	- In particular we would like to thank the sponsor
+2016-05-13 13:53:52	--	- of this server, details of which can be found above.
+2016-05-13 13:53:52	--	-
+2016-05-13 13:53:52	--	End of /MOTD command.
+2016-05-13 13:53:52	--	User mode [+i] by aubar
+2016-05-13 13:53:58	--	#archlinux: #archlinux-unregistered :Forwarding to another channel
+2016-05-13 13:54:07	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2016-05-13 13:54:07	--	NickServ (NickServ@services.): You are now identified for aubar.
+2016-05-13 13:55:40	--	irc: connecting to server irc.freenode.net/6667...
+2016-05-13 13:55:40	--	irc: connected to irc.freenode.net/6667 (38.229.70.22)
+2016-05-13 13:55:41	--	card.freenode.net: *** Looking up your hostname...
+2016-05-13 13:55:41	--	card.freenode.net: *** Checking Ident
+2016-05-13 13:55:41	--	card.freenode.net: *** Found your hostname
+2016-05-13 13:55:50	--	card.freenode.net: *** No Ident response
+2016-05-13 13:55:50	--	Welcome to the freenode Internet Relay Chat Network aubar
+2016-05-13 13:55:50	--	Your host is card.freenode.net[38.229.70.22/6667], running version ircd-seven-1.1.3
+2016-05-13 13:55:50	--	This server was created Sun Mar 15 2015 at 18:31:32 UTC
+2016-05-13 13:55:50	--	card.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2016-05-13 13:55:50	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2016-05-13 13:55:50	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2016-05-13 13:55:50	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2016-05-13 13:55:50	--	There are 152 users and 88040 invisible on 26 servers
+2016-05-13 13:55:50	--	25 :IRC Operators online
+2016-05-13 13:55:50	--	10 :unknown connection(s)
+2016-05-13 13:55:50	--	51820 :channels formed
+2016-05-13 13:55:50	--	I have 4937 clients and 1 servers
+2016-05-13 13:55:50	--	4937 5062 :Current local users 4937, max 5062
+2016-05-13 13:55:50	--	88192 95832 :Current global users 88192, max 95832
+2016-05-13 13:55:50	--	Highest connection count: 5063 (5062 clients) (150416 connections received)
+2016-05-13 13:55:50	--	- card.freenode.net Message of the Day -
+2016-05-13 13:55:50	--	-
+2016-05-13 13:55:50	--	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+2016-05-13 13:55:50	--	- Team Cymru (http://www.team-cymru.org).
+2016-05-13 13:55:50	--	-
+2016-05-13 13:55:50	--	- CARD, ORSON SCOTT [1951-].  Born in Richland, Washington, Card grew up in
+2016-05-13 13:55:50	--	- California, Arizona, and Utah.  He lived in Brazil for two years as an
+2016-05-13 13:55:50	--	- unpaid missionary for the Mormon Church.  Author of the Ender and Alvin
+2016-05-13 13:55:50	--	- Maker books, Card's science fiction and fantasy work is strongly influenced
+2016-05-13 13:55:50	--	- by his Mormon cultural background.  The first author to win the Hugo and
+2016-05-13 13:55:50	--	- Nebula novel awards two years in a row, Card currently lives in Greensboro,
+2016-05-13 13:55:50	--	- North Carolina, US.
+2016-05-13 13:55:50	--	-
+2016-05-13 13:55:50	--	-
+2016-05-13 13:55:50	--	- Welcome to freenode - supporting the free and open source
+2016-05-13 13:55:50	--	- software communities since 1998.
+2016-05-13 13:55:50	--	-
+2016-05-13 13:55:50	--	- By connecting to freenode you indicate that you have read and
+2016-05-13 13:55:50	--	- accept our policies as set out on http://www.freenode.net
+2016-05-13 13:55:50	--	- freenode runs an open proxy scanner. Please join #freenode for
+2016-05-13 13:55:50	--	- any network-related questions or queries, where a number of
+2016-05-13 13:55:50	--	- volunteer staff and helpful users will be happy to assist you.
+2016-05-13 13:55:50	--	-
+2016-05-13 13:55:50	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2016-05-13 13:55:50	--	- together with like-minded FOSS enthusiasts for talks and
+2016-05-13 13:55:50	--	- real-life collaboration.
+2016-05-13 13:55:50	--	-
+2016-05-13 13:55:50	--	- We would like to thank Private Internet Access
+2016-05-13 13:55:50	--	- (https://www.privateinternetaccess.com/) and the other
+2016-05-13 13:55:50	--	- organisations that help keep freenode and our other projects
+2016-05-13 13:55:50	--	- running for their sustained support.
+2016-05-13 13:55:50	--	-
+2016-05-13 13:55:50	--	- In particular we would like to thank the sponsor
+2016-05-13 13:55:50	--	- of this server, details of which can be found above.
+2016-05-13 13:55:50	--	-
+2016-05-13 13:55:50	--	End of /MOTD command.
+2016-05-13 13:55:50	--	User mode [+i] by aubar
+2016-05-13 13:55:51	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2016-05-13 13:55:51	--	NickServ (NickServ@services.): You are now identified for aubar.

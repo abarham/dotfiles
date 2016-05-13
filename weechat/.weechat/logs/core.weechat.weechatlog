@@ -399,3 +399,34 @@
 2016-05-13 13:39:15		    /buffer +1
 2016-05-13 13:39:15		  jump to last buffer number:
 2016-05-13 13:39:15		    /buffer +
+2016-05-13 13:50:48		perl: loading script "/home/austin/.weechat/perl/beep.pl"
+2016-05-13 13:50:48		perl: registered script "beep", version 1.1 (Beep (terminal bell) and/or run command on highlight/private message or new DCC)
+2016-05-13 13:51:42		python: loading script "/home/austin/.weechat/python/autojoin.py"
+2016-05-13 13:51:42		python: registered script "autojoin", version 0.2.6 (Configure autojoin for all servers according to currently joined channels)
+2016-05-13 13:52:00	=!=	No help available, "autojoi" is not a command or an option
+2016-05-13 13:52:04		[python/autojoin]  /autojoin  [--run]
+2016-05-13 13:52:04		Configure autojoin for all servers according to currently joined channels
+2016-05-13 13:52:04		   --run: actually run the commands instead of displaying
+2016-05-13 13:53:12		Option changed: irc.server.freenode.autojoin = "#archlinux,##linux,##math"  (default if null: "")
+2016-05-13 13:53:27		python: scripts unloaded
+2016-05-13 13:53:27		fifo: pipe closed
+2016-05-13 13:53:35		perl scripts loaded: beep, buffers, iset
+2016-05-13 13:53:35	=!=	python: script "/home/austin/.weechat/python/autoload/notify_send.py" not found
+2016-05-13 13:53:35		python scripts loaded: autojoin
+2016-05-13 13:53:35		script: 309 scripts for WeeChat 1.6-dev
+2016-05-13 13:53:35		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-05-13 13:54:18		python: loading script "/home/austin/.weechat/python/allquery.py"
+2016-05-13 13:54:18		python: registered script "allquery", version 0.2 (Executes command on all irc query buffer)
+2016-05-13 13:55:24		python: loading script "/home/austin/.weechat/python/bandwidth.py"
+2016-05-13 13:55:24		python: registered script "bandwidth", version 1.0 (Displays network interface bandwidth (KiB/s and MiB/s) on a bar)
+2016-05-13 13:55:30		python: scripts unloaded
+2016-05-13 13:55:30		fifo: pipe closed
+2016-05-13 13:55:37		perl scripts loaded: beep, buffers, iset
+2016-05-13 13:55:37	=!=	python: script "/home/austin/.weechat/python/autoload/notify_send.py" not found
+2016-05-13 13:55:37		python scripts loaded: allquery, autojoin, bandwidth
+2016-05-13 13:55:37		script: 309 scripts for WeeChat 1.6-dev
+2016-05-13 13:55:37		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-05-13 13:56:01	=!=	Error: unknown command "/bandwidth" (type /help for help)
+2016-05-13 13:56:17		script: script "bandwidth.py" is already installed and up-to-date
+2016-05-13 13:56:24	=!=	Error: unknown command "/bandwidth.py" (type /help for help)
+2016-05-13 13:56:28	=!=	Error: unknown command "/bandwidth.py" (type /help for help)

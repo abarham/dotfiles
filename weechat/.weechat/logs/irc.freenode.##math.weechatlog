@@ -170,3 +170,34 @@
 2016-05-13 12:39:09	baxx	no they're opposite signs
 2016-05-13 12:39:25	-->	fadeway__ (~fadeway@2001:7c0:409:410e:931:9e62:4bdb:8b15) has joined ##math
 2016-05-13 12:39:54	Svitkona	so |-4 + 3| = -(-4) - 3 = 1
+2016-05-13 13:52:53	-->	aubar (~austin@c-98-245-99-121.hsd1.co.comcast.net) has joined ##math
+2016-05-13 13:52:53	--	Topic for ##math is "Just ask your question! | Go to ##statistics and ##math-software | LaTeX pastebin: http://mathb.in | Unmaintained wiki: http://freenode-math.wikia.com/ | LaTeX symbol lookup: http://detexify.kirelabs.org/classify.html | Ping ops in ##math-ops if someone is misbehaving"
+2016-05-13 13:52:53	--	Topic set by JordiGH (~jordi@octave/developer/JordiGH) on Mon, 17 Nov 2014 11:41:02
+2016-05-13 13:52:53	--	Channel ##math: 912 nicks (0 ops, 0 voices, 912 normals)
+2016-05-13 13:52:55	--	Channel created on Fri, 29 Jan 2010 13:42:00
+2016-05-13 13:53:10	dalcde	randomly: what do you mean by solve?
+2016-05-13 13:53:58	-->	aubar (~austin@c-98-245-99-121.hsd1.co.comcast.net) has joined ##math
+2016-05-13 13:53:58	--	Topic for ##math is "Just ask your question! | Go to ##statistics and ##math-software | LaTeX pastebin: http://mathb.in | Unmaintained wiki: http://freenode-math.wikia.com/ | LaTeX symbol lookup: http://detexify.kirelabs.org/classify.html | Ping ops in ##math-ops if someone is misbehaving"
+2016-05-13 13:53:58	--	Topic set by JordiGH (~jordi@octave/developer/JordiGH) on Mon, 17 Nov 2014 11:41:02
+2016-05-13 13:53:58	--	Channel ##math: 912 nicks (0 ops, 0 voices, 912 normals)
+2016-05-13 13:54:03	--	Channel created on Fri, 29 Jan 2010 13:42:00
+2016-05-13 13:54:38	dfk921	a = 0, a + a = -a, -a + -a = b
+2016-05-13 13:54:47	randomly	in case of: (x^2 + 1) = y and x + 1 = y
+2016-05-13 13:54:53	randomly	can x and y have more than one solution
+2016-05-13 13:54:54	-->	marlang (~marlang@h-47-41.a165.priv.bahnhof.se) has joined ##math
+2016-05-13 13:55:11	randomly	yes because x^2 + 1 = y is nonlinear right?
+2016-05-13 13:55:57	-->	aubar (~austin@c-98-245-99-121.hsd1.co.comcast.net) has joined ##math
+2016-05-13 13:55:57	--	Topic for ##math is "Just ask your question! | Go to ##statistics and ##math-software | LaTeX pastebin: http://mathb.in | Unmaintained wiki: http://freenode-math.wikia.com/ | LaTeX symbol lookup: http://detexify.kirelabs.org/classify.html | Ping ops in ##math-ops if someone is misbehaving"
+2016-05-13 13:55:57	--	Topic set by JordiGH (~jordi@octave/developer/JordiGH) on Mon, 17 Nov 2014 11:41:02
+2016-05-13 13:55:57	--	Channel ##math: 912 nicks (0 ops, 0 voices, 912 normals)
+2016-05-13 13:56:01	--	Channel created on Fri, 29 Jan 2010 13:42:00
+2016-05-13 13:56:03	mxms	look at the intersections
+2016-05-13 13:56:12	Millennial	mxms alternatively, solve x^2 - x = 0
+2016-05-13 13:56:14	Millennial	which is easier
+2016-05-13 13:56:20	mxms	they either: intersect at one point, intersect at two points, or not at all
+2016-05-13 13:56:26	mxms	well, yeah Millennial ;p
+2016-05-13 13:56:34	<--	superlinux (~oracle@unaffiliated/superlinux) has quit (Read error: Connection reset by peer)
+2016-05-13 13:57:15	-->	superlinux (~oracle@unaffiliated/superlinux) has joined ##math
+2016-05-13 13:57:16	<--	centrinia (~centrinia@107-208-218-105.lightspeed.tukrga.sbcglobal.net) has quit (Ping timeout: 252 seconds)
+2016-05-13 13:57:20	harrynoob	Millennial: oh, cool. f has trivial kernel, G is finite. f must be an iso-endomorphism
+2016-05-13 13:57:27	harrynoob	now on to the actual abelian part!

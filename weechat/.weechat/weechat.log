@@ -1,20 +1,17 @@
-[2016-05-13 13:11:41] WeeChat 1.6-dev (git: v1.5-12-g951d141) (compiled on May 10 2016 16:53:10)
-[2016-05-13 13:11:41] Reading configuration file sec.conf
-[2016-05-13 13:11:43] Reading configuration file weechat.conf
-[2016-05-13 13:11:43] Reading configuration file plugins.conf
-[2016-05-13 13:11:43] Reading configuration file charset.conf
-[2016-05-13 13:11:43] Reading configuration file logger.conf
-[2016-05-13 13:11:43] Reading configuration file exec.conf
-[2016-05-13 13:11:43] Reading configuration file trigger.conf
-[2016-05-13 13:11:43] Reading configuration file aspell.conf
-[2016-05-13 13:11:43] Reading configuration file alias.conf
-[2016-05-13 13:11:43] Reading configuration file xfer.conf
-[2016-05-13 13:11:43] Reading configuration file irc.conf
-[2016-05-13 13:11:43] Reading configuration file relay.conf
-[2016-05-13 13:11:43] Reading configuration file iset.conf
-[2016-05-13 13:11:43] Reading configuration file script.conf
-[2016-05-13 13:11:53] irc: connecting to server irc.freenode.net/6667...
-[2016-05-13 13:31:24] Writing configuration file buffers.conf (default options)
-[2016-05-13 13:31:24] Reading configuration file buffers.conf
-[2016-05-13 13:37:55] Writing configuration file sec.conf
-[2016-05-13 13:38:14] Writing configuration file sec.conf
+[2016-05-13 13:55:32] WeeChat 1.6-dev (git: v1.5-12-g951d141) (compiled on May 10 2016 16:53:10)
+[2016-05-13 13:55:32] Reading configuration file sec.conf
+[2016-05-13 13:55:37] Reading configuration file weechat.conf
+[2016-05-13 13:55:37] Reading configuration file plugins.conf
+[2016-05-13 13:55:37] Reading configuration file charset.conf
+[2016-05-13 13:55:37] Reading configuration file logger.conf
+[2016-05-13 13:55:37] Reading configuration file exec.conf
+[2016-05-13 13:55:37] Reading configuration file trigger.conf
+[2016-05-13 13:55:37] Reading configuration file aspell.conf
+[2016-05-13 13:55:37] Reading configuration file alias.conf
+[2016-05-13 13:55:37] Reading configuration file xfer.conf
+[2016-05-13 13:55:37] Reading configuration file irc.conf
+[2016-05-13 13:55:37] Reading configuration file relay.conf
+[2016-05-13 13:55:37] Reading configuration file iset.conf
+[2016-05-13 13:55:37] Reading configuration file buffers.conf
+[2016-05-13 13:55:37] Reading configuration file script.conf
+[2016-05-13 13:55:40] irc: connecting to server irc.freenode.net/6667...
