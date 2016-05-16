@@ -5,7 +5,7 @@
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="superjarin"
+ZSH_THEME="crunch"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -71,7 +71,7 @@ source $ZSH/oh-my-zsh.sh
 # fi
 
 # Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+ export ARCHFLAGS="-arch x86_64"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
@@ -102,4 +102,4 @@ alias 'cd..'="cd .."
 alias 'y'=yoaurt
 
 # powerline plugin
-. /usr/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh
+#. /usr/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh
