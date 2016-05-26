@@ -30,7 +30,7 @@ font pango:inconsolata 11
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec terminator
+bindsym $mod+Return exec termite -e tmux
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -177,3 +177,8 @@ client.urgent           #C10004 #900000 #ffffff #900000
 # reshift autostart
 exec --no-startup-id redshift-gtk
 
+# i3-gaps configuration
+for_window [class="^.*"] border pixel 0
+gaps outer 13
+gaps inner 10
+smart_gaps on

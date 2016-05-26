@@ -99,7 +99,8 @@ alias 'distupgrade'="sudo apt dist-upgrade"
 alias 'clean'="sudo apt clean"
 alias 'autoclean'="sudo apt autoclean"
 alias 'cd..'="cd .."
-alias 'y'=yoaurt
+alias 'y'=yaourt
+alias 'vi'=vim
 
 # powerline plugin
 #. /usr/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh
