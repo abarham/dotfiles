@@ -1,0 +1,54 @@
+[?1000h[?1049h[?1h=[1;34r[34l[34h[?25h[23m[24m[0m[H[J[?25l[34;1H[1m[37m[41mE325: ATTENTION[0m
+Found a swap file by the name ".env.txt.swp"
+[10Cowned by: austin   dated: Tue May 17 15:25:32 2016
+[9Cfile name: ~austin/.dotfiles/env.txt
+[10Cmodified: YES
+[9Cuser name: austin   host name: GLaDOS
+[8Cprocess ID: 14487 (still running)
+While opening file "env.txt"
+[13Cdated: Tue May 17 15:24:32 2016
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r env.txt"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".env.txt.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".env.txt.swp" already exists![0m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [34h[?25h[?1000h[0m[34;1H[K[34;1H
+[?1000lInterrupt: [32mPress ENTER or type command to continue[?1000h[0m[1;1H[L[?25l[1;133H[33m1   [0m[2;1H[94m                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       
+                                                                                                                                       [2;136H~[3;136H~[4;136H~[5;136H~[6;136H~[7;136H~[8;136H~[9;136H~[10;136H~[11;136H~[12;136H~[13;136H~[14;136H~[15;136H~[16;136H~[17;136H~[18;136H~[19;136H~[20;136H~[21;136H~[22;136H~[23;136H~[24;136H~[25;136H~[26;136H~[27;136H~[28;136H~[29;136H~[30;136H~[31;136H~[32;136H~[0m[33;1H[1m[7menv.txt [RO]                                                                                                          0,0-1          All[1;132H[34h[?25h[?25l[0m[34;1H[31mW10: Warning: Changing a readonly file[?1000l[?1000h[1;132H[34h[?25h[34;1H[0m[?1l>[?1049lVim: Caught deadly signal HUP
+Vim: Finished.
+[34;1H
